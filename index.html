@@ -1,0 +1,1422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carl Madelo — Duda Web Designer & Developer</title>
+
+<!-- ===== SEO ===== -->
+<meta name="description" content="Carl Madelo designs and builds high-performing, conversion-focused Duda websites — new builds, redesigns, and platform migrations for agencies and businesses.">
+<meta name="author" content="Carl Madelo">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://carlmadelo.com/">
+<meta name="theme-color" content="#0b0b0a">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Carl Madelo — Duda Web Designer & Developer">
+<meta property="og:description" content="Conversion-focused Duda websites that elevate your brand and turn attention into real business.">
+<meta property="og:url" content="https://carlmadelo.com/">
+<meta property="og:site_name" content="Carl Madelo">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Carl Madelo — Duda Web Designer & Developer">
+<meta name="twitter:description" content="Conversion-focused Duda websites that elevate your brand and turn attention into real business.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- ===== Structured data ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Carl Madelo — Duda Web Design",
+  "description": "Design and development of conversion-focused Duda websites, redesigns, and platform migrations.",
+  "url": "https://carlmadelo.com/",
+  "email": "hello@carlmadelo.com",
+  "priceRange": "$$",
+  "areaServed": "Worldwide",
+  "founder": {
+    "@type": "Person",
+    "name": "Carl Madelo",
+    "jobTitle": "Duda Web Designer & Developer",
+    "knowsAbout": ["Duda", "Duda Flex", "Duda 2.0", "UI Design", "SEO", "Figma", "Conversion Optimization"]
+  },
+  "makesOffer": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Design & Build" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Redesign & Revamp" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SEO-Ready & Scalable Structure" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Performance & UX Improvements" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Responsive & Optimized Builds" } }
+  ]
+}
+</script>
+
+<style>
+  :root{
+    --dark:#0b0b0a;
+    --dark-2:#111110;
+    --dark-3:#17170f;
+    --cream:#f3ede4;
+    --cream-2:#ece3d2;
+    --ink:#17160f;
+    --ink-soft:#3c392f;
+    --paper-muted:#a9a495;
+    --ink-muted:#726d5e;
+    --sage:#6e9370;
+    --sage-light:#a8c4ac;
+    --sage-dark:#4c6b4e;
+    --brand:#6e9370;
+    --line-dark:rgba(243,237,228,0.14);
+    --line-light:rgba(23,22,15,0.14);
+    --serif:'Fraunces', serif;
+    --sans:'Inter', sans-serif;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:var(--sans);
+    background:var(--cream);
+    color:var(--ink);
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  img{max-width:100%; display:block;}
+  a{color:inherit; text-decoration:none;}
+  ul{list-style:none;}
+  .wrap{max-width:1280px; margin:0 auto; padding:0 40px;}
+  em{font-style:italic; color:var(--sage);}
+
+  .skip-link{
+    position:absolute; left:16px; top:-60px; z-index:200;
+    background:var(--sage); color:#0c130d; padding:12px 20px; border-radius:4px;
+    font-size:13px; font-weight:600; transition:top .2s ease;
+  }
+  .skip-link:focus{top:16px;}
+
+  .eyebrow{
+    display:flex; align-items:center; gap:14px;
+    font-size:12px; letter-spacing:.18em; text-transform:uppercase;
+    font-weight:600; color:var(--sage);
+    margin-bottom:22px;
+  }
+  .eyebrow::before{content:""; width:26px; height:1px; background:var(--sage);}
+  .eyebrow.light{color:var(--sage-light);}
+  h1,h2,h3{font-family:var(--serif); font-weight:400; line-height:1.05; letter-spacing:-.01em;}
+  .btn{
+    display:inline-flex; align-items:center; gap:10px;
+    font-size:12px; letter-spacing:.12em; text-transform:uppercase; font-weight:600;
+    padding:16px 30px; border-radius:3px; border:1px solid transparent;
+    cursor:pointer; transition:all .25s ease; white-space:nowrap;
+  }
+  .btn-solid{background:var(--sage); color:#0c130d;}
+  .btn-solid:hover{background:var(--sage-light); transform:translateY(-2px);}
+  .btn-line{border-color:currentColor; opacity:.85;}
+  .btn-line:hover{opacity:1; background:rgba(255,255,255,.05);}
+  .btn-ghost{padding:0; border:0; text-decoration:underline; text-underline-offset:5px; text-decoration-color:var(--sage);}
+
+  /* ---------- MOUSE GLOW ---------- */
+  .mouse-glow{
+    position:fixed; top:0; left:0;
+    width:520px; height:520px; border-radius:50%;
+    pointer-events:none; z-index:90;
+    background:radial-gradient(circle,
+      rgba(110,147,112,.18),
+      rgba(110,147,112,.07) 42%,
+      transparent 70%);
+    opacity:0; transition:opacity .45s ease;
+    will-change:transform;
+  }
+
+  /* ---------- NAV ---------- */
+  html{scroll-padding-top:110px;}
+  .progress-bar{
+    position:fixed; top:0; left:0; width:0%; height:2.5px; z-index:300;
+    background:linear-gradient(90deg, var(--sage-dark), var(--sage-light));
+    transition:width .08s linear;
+  }
+  header{
+    position:fixed; top:0; left:0; right:0; z-index:130; pointer-events:none;
+    padding:18px 24px 0;
+    transition:padding .4s cubic-bezier(.4,0,.2,1);
+  }
+  header.scrolled{padding:10px 24px 0;}
+  .navbar{
+    pointer-events:auto; position:relative;
+    display:flex; align-items:center; justify-content:space-between; gap:18px;
+    max-width:1180px; margin:0 auto; padding:8px 8px 8px 20px;
+    background:rgba(14,15,12,.62); backdrop-filter:blur(22px) saturate(170%);
+    border:1px solid rgba(243,237,228,.16); border-radius:999px;
+    box-shadow:0 24px 50px -30px rgba(0,0,0,.6), inset 0 1px 0 rgba(255,255,255,.07);
+    transition:background .4s cubic-bezier(.4,0,.2,1), box-shadow .4s cubic-bezier(.4,0,.2,1),
+      padding .4s cubic-bezier(.4,0,.2,1), max-width .4s cubic-bezier(.4,0,.2,1);
+  }
+  .navbar::before{
+    content:""; position:absolute; inset:0; border-radius:inherit; z-index:0; pointer-events:none;
+    background:linear-gradient(180deg, rgba(255,255,255,.06), transparent 45%);
+  }
+  header.scrolled .navbar{
+    background:rgba(10,10,9,.92); box-shadow:0 20px 44px -22px rgba(0,0,0,.8);
+    padding:6px 6px 6px 20px; max-width:1040px;
+  }
+
+  .brand{display:flex; align-items:center; gap:10px; position:relative; z-index:1;}
+  .brand-mark{
+    width:32px; height:32px; min-width:32px; border-radius:50%;
+    border:1px solid var(--line-dark); display:flex; align-items:center; justify-content:center;
+    font-family:var(--serif); font-style:italic; font-size:13px; color:var(--sage-light);
+    transition:border-color .3s ease, background .3s ease, transform .45s cubic-bezier(.34,1.56,.64,1);
+  }
+  .brand:hover .brand-mark{border-color:var(--sage); background:var(--sage); color:#0c130d; transform:rotate(-160deg);}
+  .logo{font-family:var(--serif); font-size:16.5px; letter-spacing:.08em; color:var(--cream); text-transform:uppercase;}
+
+  .nav-links{
+    position:relative; z-index:1; display:flex; gap:1px;
+    background:rgba(255,255,255,.03); border-radius:999px; padding:4px;
+  }
+  .nav-liquid{
+    position:absolute; top:4px; left:0; height:calc(100% - 8px); width:0;
+    background:linear-gradient(180deg, var(--sage-light), var(--sage));
+    border-radius:999px; z-index:0; opacity:0;
+    box-shadow:0 6px 16px -4px rgba(110,147,112,.6), inset 0 1px 0 rgba(255,255,255,.3);
+    transition:transform .5s cubic-bezier(.34,1.56,.64,1), width .5s cubic-bezier(.34,1.56,.64,1), opacity .25s ease;
+  }
+  .nav-links a{
+    position:relative; z-index:1; display:flex; align-items:center; gap:9px;
+    font-size:13px; color:#cbc5b6; letter-spacing:.01em;
+    padding:10px 17px; border-radius:999px;
+    transition:color .3s ease;
+  }
+  .nav-links a .mi-idx{
+    display:flex; align-items:center; justify-content:center;
+    width:19px; height:19px; min-width:19px; border-radius:50%;
+    border:1px solid rgba(243,237,228,.2);
+    font-family:var(--sans); font-style:normal; font-weight:700; font-size:9px; color:var(--sage-light);
+    transition:background .3s ease, border-color .3s ease, color .3s ease;
+  }
+  .nav-links a.is-lit{color:#0c130d; font-weight:600;}
+  .nav-links a.is-lit .mi-idx{background:#0c130d; border-color:#0c130d; color:var(--sage-light);}
+
+  .nav-right{display:flex; align-items:center; gap:12px; position:relative; z-index:1;}
+  .nav-right::before{
+    content:""; width:1px; height:20px; background:var(--line-dark);
+  }
+  .nav-cta{
+    position:relative; overflow:hidden; display:inline-flex; align-items:center; gap:9px;
+    background:var(--sage); color:#0c130d; border:1px solid var(--sage);
+    font-size:11px; letter-spacing:.12em; padding:12px 22px; border-radius:999px;
+    transition:transform .25s ease;
+  }
+  .nav-cta::before{
+    content:""; position:absolute; inset:0; border-radius:inherit;
+    background:linear-gradient(115deg, transparent 30%, rgba(255,255,255,.55) 48%, transparent 66%);
+    transform:translateX(-120%); transition:transform .7s ease;
+  }
+  .nav-cta:hover::before{transform:translateX(120%);}
+  .nav-cta:hover{transform:translateY(-2px);}
+  .nav-cta .arrow{transition:transform .3s ease;}
+  .nav-cta:hover .arrow{transform:translateX(3px) rotate(-45deg);}
+
+  .burger{
+    display:none; position:relative; z-index:160; width:38px; height:38px;
+    flex-direction:column; align-items:center; justify-content:center; gap:5px;
+    background:none; border:1px solid var(--line-dark); border-radius:50%; cursor:pointer; padding:0;
+    transition:border-color .3s ease, background .3s ease;
+  }
+  .burger span{width:14px; height:1.4px; background:var(--cream); transition:transform .3s ease, opacity .3s ease;}
+  .burger.open{border-color:var(--sage); background:var(--sage);}
+  .burger.open span{background:#0c130d;}
+  .burger.open span:nth-child(1){transform:translateY(6.4px) rotate(45deg);}
+  .burger.open span:nth-child(2){opacity:0;}
+  .burger.open span:nth-child(3){transform:translateY(-6.4px) rotate(-45deg);}
+
+  /* iris-reveal full-screen mobile overlay */
+  .mobile-menu{
+    position:fixed; inset:0; z-index:120; pointer-events:auto;
+    background:
+      radial-gradient(ellipse 700px 420px at 85% 0%, rgba(110,147,112,.16), transparent 60%),
+      var(--dark);
+    display:flex; flex-direction:column; justify-content:flex-start; overflow-y:auto;
+    padding:118px 32px 40px;
+    --ix:calc(100% - 46px); --iy:40px; --ir:0px;
+    clip-path:circle(var(--ir) at var(--ix) var(--iy));
+    visibility:hidden;
+    transition:clip-path .6s cubic-bezier(.65,0,.35,1), visibility 0s linear .6s;
+  }
+  .mobile-menu.open{
+    visibility:visible;
+    transition:clip-path .6s cubic-bezier(.65,0,.35,1), visibility 0s linear 0s;
+  }
+  .mm-top{
+    display:flex; align-items:center; justify-content:space-between; gap:16px;
+    margin-bottom:22px;
+  }
+  .mm-eyebrow{
+    display:block; font-size:11px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--sage-light); font-weight:600; margin:0;
+    opacity:0; transform:translateY(-6px);
+    transition:opacity .4s ease .16s, transform .4s ease .16s;
+  }
+  .mobile-menu.open .mm-eyebrow{opacity:1; transform:none;}
+  .mm-back{
+    display:inline-flex; align-items:center; gap:10px;
+    background:rgba(255,255,255,.04); border:1px solid var(--line-dark); color:var(--cream);
+    font-family:var(--sans); font-size:11.5px; letter-spacing:.14em; text-transform:uppercase; font-weight:600;
+    padding:11px 18px; border-radius:999px; cursor:pointer;
+    opacity:0; transform:translateY(-6px);
+    transition:opacity .4s ease .1s, transform .4s ease .1s, border-color .25s ease, background .25s ease;
+  }
+  .mobile-menu.open .mm-back{opacity:1; transform:none;}
+  .mm-back:hover{border-color:var(--sage); background:rgba(110,147,112,.14);}
+  .mm-back .mm-back-arrow{font-size:16px; line-height:1; transition:transform .25s ease;}
+  .mm-back:hover .mm-back-arrow{transform:translateX(-3px);}
+  .mobile-links{display:flex; flex-direction:column;}
+  .mobile-links a{
+    display:flex; align-items:center; gap:16px;
+    font-family:var(--serif); font-size:clamp(30px,9vw,44px); color:var(--cream);
+    padding:17px 0; border-bottom:1px solid var(--line-dark);
+    opacity:0; transform:translateX(28px);
+    transition:opacity .4s ease, transform .4s ease, color .2s ease;
+  }
+  .mobile-links a::after{
+    content:"\2192"; margin-left:auto;
+    font-family:var(--sans); font-size:22px; color:var(--sage-light);
+    opacity:0; transform:translateX(-10px);
+    transition:opacity .3s ease, transform .3s ease;
+  }
+  .mobile-links a:hover, .mobile-links a:focus-visible{color:var(--sage-light);}
+  .mobile-links a:hover::after, .mobile-links a:focus-visible::after{opacity:1; transform:none;}
+  .mobile-links a .mi-idx{font-family:var(--sans); font-size:12px; font-weight:700; color:var(--sage-light); letter-spacing:.06em;}
+  .mobile-menu.open .mobile-links a{opacity:1; transform:none;}
+  .mobile-menu.open .mobile-links a:nth-child(1){transition-delay:.22s;}
+  .mobile-menu.open .mobile-links a:nth-child(2){transition-delay:.28s;}
+  .mobile-menu.open .mobile-links a:nth-child(3){transition-delay:.34s;}
+  .mobile-menu.open .mobile-links a:nth-child(4){transition-delay:.4s;}
+  .mobile-menu.open .mobile-links a:nth-child(5){transition-delay:.46s;}
+  .mm-footer{
+    display:flex; flex-direction:column; align-items:flex-start; gap:18px;
+    width:100%; margin-top:auto; padding-top:26px; border-top:1px solid var(--line-dark);
+    opacity:0; transform:translateY(10px); transition:opacity .4s ease .5s, transform .4s ease .5s;
+  }
+  .mobile-menu.open .mm-footer{opacity:1; transform:none;}
+  .mm-avail{
+    display:inline-flex; align-items:center; gap:9px;
+    font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--sage-light);
+    border:1px solid var(--line-dark); padding:8px 15px; border-radius:30px;
+  }
+  .mm-avail .dot{
+    width:6px; height:6px; border-radius:50%; background:var(--sage-light);
+    box-shadow:0 0 0 4px rgba(168,196,172,.16);
+  }
+  .mm-contact{display:flex; flex-direction:column; gap:7px;}
+  .mm-label{font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--paper-muted); font-weight:600;}
+  .mm-footer a.mm-email{font-family:var(--serif); font-size:19px; color:var(--sage-light); transition:color .2s ease;}
+  .mm-footer a.mm-email:hover{color:var(--cream);}
+  .mm-cta{width:100%; justify-content:center;}
+  .mm-footer .mm-social{display:flex; gap:10px;}
+  .mm-footer .mm-social a{
+    width:38px; height:38px; border-radius:50%; border:1px solid var(--line-dark);
+    display:flex; align-items:center; justify-content:center; color:var(--paper-muted); font-size:13px;
+    transition:border-color .2s ease, color .2s ease, background .2s ease;
+  }
+  .mm-footer .mm-social a:hover{border-color:var(--sage); background:var(--sage); color:#0c130d;}
+  .mm-meta{font-size:11px; color:var(--paper-muted); letter-spacing:.03em;}
+
+  /* ---------- HERO ---------- */
+  .hero{
+    background:
+      linear-gradient(rgba(11,11,10,.38), rgba(11,11,10,.80)),
+      url('hero-bg.png') center/cover no-repeat,
+      var(--dark);
+    color:var(--cream); position:relative; overflow:hidden;
+    display:flex; flex-direction:column;
+  }
+  @media (min-width:981px){ .hero{min-height:640px;} }
+  .hero::before{
+    content:""; position:absolute; inset:0;
+    background:radial-gradient(ellipse 900px 500px at 15% 10%, rgba(110,147,112,.14), transparent 60%);
+    pointer-events:none;
+  }
+  .hero-grid{
+    position:relative; z-index:1; max-width:1280px; margin:0 auto; width:100%;
+    padding:150px 40px 110px;
+    flex:1 1 auto; display:flex; align-items:center;
+  }
+  .hero-copy{max-width:min(560px, calc(46vw - 60px));}
+  .hero h1{font-size:clamp(42px,5vw,64px); margin-bottom:26px;}
+  .hero p.lede{max-width:400px; color:var(--paper-muted); font-size:16px; line-height:1.7; margin-bottom:38px;}
+  .hero-actions{display:flex; align-items:center; gap:34px;}
+  .hero-actions .btn-ghost{color:var(--cream);}
+
+  .hero-portrait{
+    position:absolute; top:0; right:0; bottom:0; width:52%;
+    background:
+      linear-gradient(90deg, var(--dark) 0%, rgba(11,11,10,0) 18%),
+      url('portrait.png') center 20%/cover no-repeat;
+  }
+  .hero-portrait::after{
+    content:""; position:absolute; inset:0;
+    background:linear-gradient(180deg, rgba(11,11,10,.05), rgba(11,11,10,.35) 85%);
+  }
+  .badge-avail{
+    display:flex; align-items:center; gap:8px;
+    background:rgba(10,10,9,.72); backdrop-filter:blur(6px); border:1px solid var(--line-dark);
+    padding:9px 16px; border-radius:30px; font-size:11px; letter-spacing:.08em; text-transform:uppercase;
+  }
+  .badge-avail .dot{width:6px; height:6px; border-radius:50%; background:var(--sage-light); box-shadow:0 0 0 4px rgba(168,196,172,.18);}
+  .hero-badges{
+    position:absolute; top:96px; right:24px; z-index:2;
+    display:flex; flex-direction:column; align-items:flex-end; gap:10px;
+    animation:heroFloat 6s ease-in-out infinite;
+  }
+  .badge-avail.badge-outline{
+    background:rgba(10,10,9,.4); border:1px solid var(--line-dark); color:var(--cream);
+    white-space:nowrap;
+  }
+  .badge-avail .dot{position:relative;}
+  .badge-avail .dot::after{
+    content:""; position:absolute; inset:-4px; border-radius:50%;
+    border:1px solid var(--sage-light); opacity:.7;
+    animation:pingDot 2.2s ease-out infinite;
+  }
+  .badge-duda{
+    background:var(--sage); color:#0c130d; font-weight:700;
+    padding:9px 16px; border-radius:30px; font-size:11px; letter-spacing:.08em; text-transform:uppercase;
+    white-space:nowrap;
+  }
+  @keyframes heroFloat{
+    0%,100%{transform:translateY(0);}
+    50%{transform:translateY(-8px);}
+  }
+  @keyframes pingDot{
+    0%{transform:scale(1); opacity:.7;}
+    100%{transform:scale(2.6); opacity:0;}
+  }
+
+  .hero-orbit{
+    position:absolute; right:24px; bottom:110px; z-index:2;
+    width:104px; height:104px;
+    animation:heroFloat 6s ease-in-out infinite 1.2s;
+  }
+  .hero-orbit-spin{
+    width:100%; height:100%;
+    animation:heroSpin 16s linear infinite;
+  }
+  .hero-orbit svg{width:100%; height:100%;}
+  .hero-orbit text{text-transform:uppercase; font-family:var(--sans); font-weight:600;}
+  .orbit-core{
+    position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+    width:34px; height:34px; border-radius:50%;
+    background:rgba(10,10,9,.55); backdrop-filter:blur(4px); border:1px solid var(--line-dark);
+  }
+  .orbit-core::before{
+    content:""; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+    width:8px; height:8px; border-radius:50%; background:var(--sage-light);
+    animation:orbitPulse 2.4s ease-in-out infinite;
+  }
+  @keyframes heroSpin{ from{transform:rotate(0deg);} to{transform:rotate(360deg);} }
+  @keyframes orbitPulse{
+    0%,100%{box-shadow:0 0 0 5px rgba(168,196,172,.16);}
+    50%{box-shadow:0 0 0 10px rgba(168,196,172,.28);}
+  }
+
+  .ticker{
+    border-top:1px solid var(--line-dark); overflow:hidden; padding:26px 0; position:relative; z-index:1;
+    background:rgba(8,8,7,.62); backdrop-filter:blur(6px);
+  }
+  .ticker-track{display:flex; width:max-content; animation:scroll 32s linear infinite;}
+  .ticker-track span{
+    font-size:12px; letter-spacing:.18em; text-transform:uppercase; color:var(--paper-muted);
+    padding:0 26px; white-space:nowrap; display:flex; align-items:center; gap:26px;
+  }
+  .ticker-track span::after{content:"•"; color:var(--sage);}
+  @keyframes scroll{ from{transform:translateX(0);} to{transform:translateX(-50%);} }
+
+  /* ---------- SECTION HEADS ---------- */
+  section{padding:120px 0;}
+  .section-head{
+    display:grid; grid-template-columns:1.3fr .7fr; gap:40px; align-items:end; margin-bottom:64px;
+  }
+  .section-head h2{font-size:clamp(34px,4vw,48px);}
+  .section-head .note{font-size:14px; color:var(--ink-muted); line-height:1.7; text-align:right; max-width:320px; justify-self:end;}
+  .section-head.on-dark .note{color:var(--paper-muted);}
+
+  /* ---------- WORK ---------- */
+  .work-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:28px;}
+  .work-card{
+    display:flex; flex-direction:column; position:relative;
+    background:#fff;
+    border:1px solid var(--line-light);
+    border-radius:14px; overflow:hidden;
+    box-shadow:0 16px 36px -30px rgba(23,22,15,.35);
+    transition:transform .4s cubic-bezier(.2,.7,.3,1), box-shadow .4s ease, border-color .4s ease;
+  }
+  .work-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 30px 54px -26px rgba(23,22,15,.28);
+    border-color:rgba(110,147,112,.4);
+  }
+  .work-thumb{
+    position:relative; display:block; overflow:hidden;
+    aspect-ratio:4/3;                 /* thumbnail shape — 3/2 or 16/10 crops less off tall shots */
+    background:var(--dark-2);
+  }
+  .work-shot{
+    width:100%; height:100%;
+    object-fit:cover; object-position:top center;
+    transition:transform .6s cubic-bezier(.2,.7,.3,1);
+  }
+  .work-card:hover .work-shot{transform:scale(1.045);}
+  /* for screenshots much wider than the card — shows the whole shot instead of cutting the sides */
+  .work-thumb.fit-whole .work-shot{object-fit:contain; object-position:center;}
+  .work-card:hover .work-thumb.fit-whole .work-shot{transform:scale(1.02);}
+  .work-view{
+    position:absolute; inset:0; z-index:4;
+    display:flex; align-items:center; justify-content:center;
+    background:linear-gradient(180deg, rgba(11,11,10,0) 30%, rgba(11,11,10,.82));
+    opacity:0; transition:opacity .35s ease;
+  }
+  .work-card:hover .work-view, .work-card:focus-visible .work-view{opacity:1;}
+  .work-view span{
+    display:inline-flex; align-items:center; gap:8px;
+    color:#fff; font-size:12px; font-weight:700; letter-spacing:.1em; text-transform:uppercase;
+    border:1px solid rgba(255,255,255,.4); border-radius:30px; padding:11px 20px;
+    transform:translateY(10px); transition:transform .35s ease, background .25s ease, border-color .25s ease;
+  }
+  .work-card:hover .work-view span{transform:translateY(0);}
+  .work-view span:hover{background:var(--sage); border-color:var(--sage); color:#0c130d;}
+
+  /* title beneath the image */
+  .work-title{
+    display:flex; align-items:center; gap:12px;
+    padding:22px 24px 24px;
+    font-family:var(--serif); font-weight:500;
+    font-size:clamp(19px,1.6vw,22px); line-height:1.2;
+    letter-spacing:-.01em; color:var(--ink);
+    transition:color .3s ease;
+  }
+  .work-title::after{
+    content:"\2197"; margin-left:auto;
+    font-family:var(--sans); font-size:15px; font-weight:600; color:var(--sage-dark);
+    opacity:.55; transition:opacity .3s ease, transform .3s ease;
+  }
+  .work-card:hover .work-title{color:var(--sage-dark);}
+  .work-card:hover .work-title::after{opacity:1; transform:translate(3px,-3px);}
+
+  .work-stats{
+    display:grid; grid-template-columns:repeat(4,1fr); margin-top:80px;
+    border-top:1px solid var(--line-light);
+  }
+  .work-stat{
+    padding:32px 24px 4px; border-right:1px solid var(--line-light);
+    text-align:left;
+  }
+  .work-stat:last-child{border-right:0;}
+  .work-stat .num{
+    font-family:var(--serif); font-style:italic; font-size:clamp(30px,3.4vw,42px); color:var(--sage-dark);
+    display:block; line-height:1; margin-bottom:10px;
+  }
+  .work-stat .lbl{font-size:12px; color:var(--ink-muted); letter-spacing:.03em; line-height:1.5;}
+
+  /* ---------- ABOUT ---------- */
+  .about{
+    background:
+      linear-gradient(rgba(17,17,16,.56), rgba(17,17,16,.52)),
+      url('about-bg.png') center/cover no-repeat,
+      var(--dark-2);
+    color:var(--cream); position:relative;
+  }
+  .about-grid{display:grid; grid-template-columns:.85fr 1.15fr; gap:80px;}
+  .about h2{font-size:clamp(34px,4vw,48px); margin-bottom:36px;}
+  .about-actions{display:flex; align-items:center; gap:34px;}
+  .about-actions .btn-ghost{color:var(--cream);}
+  .about-copy p{font-size:15px; line-height:1.85; color:var(--paper-muted); margin-bottom:20px;}
+  .about-copy p b, .about-copy p strong{color:var(--cream); font-weight:600;}
+  .about-copy hr{border:0; border-top:1px solid var(--line-dark); margin:28px 0;}
+  .tag-row{display:flex; flex-wrap:wrap; gap:10px;}
+  .tag-row span{
+    font-size:11px; letter-spacing:.06em; text-transform:uppercase; padding:9px 16px;
+    border:1px solid var(--line-dark); border-radius:30px; color:var(--paper-muted);
+  }
+
+  /* ---------- SERVICES (explorer) ---------- */
+  .svc-explorer{
+    display:grid; grid-template-columns:.82fr 1.18fr; gap:36px; align-items:start;
+  }
+  .svc-menu{border-top:1px solid var(--line-light);}
+  .svc-tab{
+    position:relative; width:100%; text-align:left; background:none; border:0; cursor:pointer;
+    display:flex; align-items:baseline; gap:18px;
+    padding:24px 10px 24px 20px; border-bottom:1px solid var(--line-light);
+    font-family:var(--serif); font-size:23px; color:var(--ink-muted);
+    transition:color .3s ease, padding-left .3s ease;
+  }
+  .svc-tab::before{
+    content:""; position:absolute; left:0; top:50%; transform:translateY(-50%);
+    width:3px; height:0; background:var(--sage); transition:height .3s ease;
+  }
+  .svc-tab .idx{font-family:var(--sans); font-size:12px; font-weight:700; letter-spacing:.1em; color:var(--paper-muted); min-width:24px;}
+  .svc-tab:hover{color:var(--ink-soft); padding-left:26px;}
+  .svc-tab[aria-selected="true"]{color:var(--ink);}
+  .svc-tab[aria-selected="true"]::before{height:60%;}
+  .svc-tab[aria-selected="true"] .idx{color:var(--sage-dark);}
+
+  .svc-stage{position:relative; min-height:360px;}
+  .svc-panel{
+    position:relative; display:none; overflow:hidden;
+    background:var(--dark); color:var(--cream); border-radius:12px; padding:48px 46px;
+    box-shadow:0 30px 60px -30px rgba(0,0,0,.5);
+  }
+  .svc-panel.active{display:block; animation:svcFade .45s ease both;}
+  @keyframes svcFade{from{opacity:0; transform:translateY(14px);} to{opacity:1; transform:none;}}
+  .svc-ghost{
+    position:absolute; top:8px; right:26px; font-family:var(--serif); font-style:italic;
+    font-size:150px; line-height:1; color:rgba(243,237,228,.05); pointer-events:none; user-select:none;
+  }
+  .svc-panel .cat{font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--sage-light); font-weight:600; margin-bottom:18px; display:block;}
+  .svc-panel h3{font-family:var(--serif); font-weight:400; font-size:clamp(26px,3vw,34px); margin-bottom:20px; max-width:14ch;}
+  .svc-panel p{font-size:15px; line-height:1.8; color:var(--paper-muted); max-width:46ch; margin-bottom:30px;}
+  .svc-inc-label{font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--paper-muted); margin-bottom:14px; display:block;}
+  .svc-tags{display:flex; flex-wrap:wrap; gap:10px;}
+  .svc-tags span{
+    font-size:12px; letter-spacing:.03em; padding:9px 15px; border-radius:30px;
+    border:1px solid var(--line-dark); color:var(--cream);
+  }
+
+  /* ---------- HOW IT WORKS (timeline) ---------- */
+  .how{background:var(--cream-2); color:var(--ink);}
+  .how-timeline{display:grid; grid-template-columns:repeat(4,1fr); gap:26px;}
+  .how-step{position:relative;}
+  .how-step:not(:last-child)::after{
+    content:""; position:absolute; top:21px; left:21px; width:calc(100% + 26px); height:1px;
+    background:linear-gradient(90deg, var(--sage) , var(--line-light)); z-index:1;
+  }
+  .how-node{
+    width:42px; height:42px; border-radius:50%; position:relative; z-index:2; margin-bottom:26px;
+    background:var(--cream-2); border:1px solid var(--sage); color:var(--sage-dark);
+    display:flex; align-items:center; justify-content:center;
+    font-family:var(--serif); font-style:italic; font-size:18px;
+    transition:background .3s ease, color .3s ease, transform .3s ease;
+  }
+  .how-step:hover .how-node{background:var(--sage); color:#0c130d; transform:scale(1.08);}
+  .how-body h3{font-size:19px; font-weight:600; font-family:var(--sans); margin-bottom:12px; letter-spacing:.01em;}
+  .how-body p{font-size:13.5px; color:var(--ink-muted); line-height:1.7;}
+
+  /* ---------- STACK (interactive grid) ---------- */
+  .stack{background:var(--dark); color:var(--cream); padding-top:80px;}
+  .stack-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:16px;}
+  .stack-card{
+    position:relative; overflow:hidden; text-align:left; cursor:pointer; width:100%;
+    background:var(--dark-2); border:1px solid var(--line-dark); border-radius:14px;
+    padding:26px 26px 24px; color:var(--cream); font-family:var(--sans);
+    transition:transform .3s ease, border-color .3s ease, background .4s ease;
+  }
+  .stack-card::after{
+    content:""; position:absolute; top:0; left:0; right:0; height:3px; background:var(--brand);
+    transform:scaleX(0); transform-origin:left; transition:transform .35s ease;
+  }
+  .stack-card:hover, .stack-card.open{transform:translateY(-4px); border-color:var(--brand);}
+  .stack-card:hover::after, .stack-card.open::after{transform:scaleX(1);}
+  .sc-top{display:flex; align-items:center; gap:14px;}
+  .sc-mark{
+    width:40px; height:40px; min-width:40px; border-radius:10px; background:var(--brand); color:#0b0b0a;
+    display:flex; align-items:center; justify-content:center; font-weight:700; font-size:14px; letter-spacing:.02em;
+  }
+  .sc-meta{display:flex; flex-direction:column; gap:3px;}
+  .sc-name{font-size:16px; font-weight:600;}
+  .sc-phase{font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--paper-muted);}
+  .sc-plus{
+    margin-left:auto; width:24px; height:24px; position:relative; color:var(--paper-muted); transition:color .3s ease, transform .3s ease;
+  }
+  .sc-plus::before,.sc-plus::after{content:""; position:absolute; background:currentColor;}
+  .sc-plus::before{left:0; top:50%; width:100%; height:1.5px; transform:translateY(-50%);}
+  .sc-plus::after{top:0; left:50%; width:1.5px; height:100%; transform:translateX(-50%); transition:transform .3s ease, opacity .3s ease;}
+  .stack-card:hover .sc-plus, .stack-card.open .sc-plus{color:var(--brand);}
+  .stack-card:hover .sc-plus::after, .stack-card.open .sc-plus::after{transform:translateX(-50%) rotate(90deg); opacity:0;}
+  .sc-role{
+    max-height:0; opacity:0; overflow:hidden; font-size:13.5px; line-height:1.7; color:var(--paper-muted);
+    transition:max-height .4s ease, opacity .3s ease, margin-top .4s ease;
+  }
+  .stack-card:hover .sc-role, .stack-card.open .sc-role{max-height:140px; opacity:1; margin-top:18px;}
+
+  /* ---------- FAQ ---------- */
+  .faq-grid{display:flex; flex-direction:column; gap:12px;}
+  .faq-item{
+    background:rgba(255,255,255,.55);
+    border:1px solid var(--line-light); border-radius:14px;
+    overflow:hidden;
+    transition:background .35s ease, border-color .35s ease, box-shadow .35s ease, transform .35s ease;
+  }
+  .faq-item:hover{
+    background:#fff; border-color:rgba(110,147,112,.35);
+    box-shadow:0 18px 40px -34px rgba(23,22,15,.4);
+  }
+  .faq-item.open{
+    background:#fff; border-color:rgba(110,147,112,.5);
+    box-shadow:0 24px 50px -34px rgba(23,22,15,.35);
+  }
+  .faq-q{
+    width:100%; text-align:left; background:none; border:0; cursor:pointer;
+    display:flex; align-items:center; gap:18px;
+    padding:24px 26px;
+    font-family:var(--serif); font-weight:400; font-size:19.5px; line-height:1.35;
+    letter-spacing:-.005em; color:var(--ink);
+    transition:color .3s ease;
+  }
+  .faq-q:hover{color:var(--sage-dark);}
+  .faq-q .q-idx{
+    flex:0 0 auto; font-family:var(--sans); font-size:11px; font-weight:700;
+    letter-spacing:.12em; color:var(--paper-muted);
+    padding-top:5px; transition:color .3s ease;
+  }
+  .faq-item.open .q-idx, .faq-q:hover .q-idx{color:var(--sage-dark);}
+  .faq-q .q-text{flex:1 1 auto;}
+  .faq-q .plus{
+    flex:0 0 auto; width:34px; height:34px; min-width:34px; position:relative;
+    border:1px solid var(--line-light); border-radius:50%; color:var(--sage-dark);
+    transition:background .3s ease, border-color .3s ease, color .3s ease, transform .35s ease;
+  }
+  .faq-q .plus::before, .faq-q .plus::after{
+    content:""; position:absolute; top:50%; left:50%; background:currentColor;
+    transition:transform .35s ease, opacity .3s ease;
+  }
+  .faq-q .plus::before{width:12px; height:1.5px; transform:translate(-50%,-50%);}
+  .faq-q .plus::after{width:1.5px; height:12px; transform:translate(-50%,-50%);}
+  .faq-item:hover .plus{border-color:var(--sage); background:rgba(110,147,112,.1);}
+  .faq-item.open .plus{
+    background:var(--sage); border-color:var(--sage); color:#0c130d; transform:rotate(180deg);
+  }
+  .faq-item.open .plus::after{transform:translate(-50%,-50%) rotate(90deg); opacity:0;}
+  .faq-a{max-height:0; overflow:hidden; transition:max-height .4s cubic-bezier(.4,0,.2,1);}
+  .faq-a p{
+    font-size:14.5px; color:var(--ink-muted); line-height:1.8;
+    padding:0 78px 26px 62px; max-width:70ch;
+  }
+  .faq-more{
+    display:flex; align-items:center; flex-wrap:wrap; gap:8px 14px;
+    margin-top:34px; padding-top:26px; border-top:1px solid var(--line-light);
+    font-size:14px; color:var(--ink-muted);
+  }
+  .faq-more a{
+    color:var(--sage-dark); font-weight:600;
+    text-decoration:underline; text-underline-offset:4px; text-decoration-color:rgba(110,147,112,.45);
+    transition:text-decoration-color .25s ease;
+  }
+  .faq-more a:hover{text-decoration-color:var(--sage);}
+
+  /* ---------- CTA ---------- */
+  .cta{
+    background:
+      linear-gradient(rgba(11,11,10,.52), rgba(11,11,10,.9)),
+      url('cta-bg.png') center/cover no-repeat,
+      var(--dark);
+    color:var(--cream); position:relative; overflow:hidden;
+  }
+  .cta-grid{display:block; max-width:660px; margin:0 auto; text-align:center; position:relative; z-index:1;}
+  .cta .eyebrow{justify-content:center;}
+  .cta h2{font-size:clamp(38px,5.5vw,58px); margin-bottom:22px;}
+  .cta p.lede{color:var(--paper-muted); max-width:420px; margin:0 auto 36px; line-height:1.7;}
+  .cta-actions{display:flex; align-items:center; justify-content:center; gap:34px;}
+  .cta-actions .btn-ghost{color:var(--cream);}
+
+  /* ---------- FOOTER (light) ---------- */
+  footer{background:var(--cream); border-top:1px solid var(--line-light); padding:78px 0 34px; position:relative; overflow:hidden; color:var(--ink-muted);}
+  .footer-top{display:grid; grid-template-columns:1.5fr .75fr .75fr; gap:48px; padding-bottom:52px; position:relative; z-index:1;}
+  .footer-brand .f-logo{font-family:var(--serif); font-size:26px; color:var(--ink); letter-spacing:.06em; text-transform:uppercase; margin-bottom:18px; display:block;}
+  .footer-brand p{font-size:14px; line-height:1.75; max-width:330px; margin-bottom:24px;}
+  .footer-avail{display:inline-flex; align-items:center; gap:9px; font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--sage-dark); border:1px solid var(--line-light); padding:8px 15px; border-radius:30px;}
+  .footer-avail .dot{width:6px; height:6px; border-radius:50%; background:var(--sage); box-shadow:0 0 0 4px rgba(110,147,112,.16);}
+  .footer-col h4{font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--ink-muted); font-weight:600; margin-bottom:20px;}
+  .footer-col ul{display:flex; flex-direction:column; gap:13px;}
+  .footer-col a{font-size:14px; color:var(--ink); opacity:.78; transition:opacity .2s ease, padding-left .2s ease, color .2s ease;}
+  .footer-col a:hover{opacity:1; padding-left:6px; color:var(--sage-dark);}
+  .footer-bottom{
+    display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px;
+    padding-top:26px; border-top:1px solid var(--line-light); font-size:12.5px; position:relative; z-index:1;
+  }
+  .footer-bottom .socials{display:flex; gap:12px;}
+  .footer-bottom .socials a{
+    width:34px; height:34px; border:1px solid var(--line-light); border-radius:50%; color:var(--ink);
+    display:flex; align-items:center; justify-content:center; transition:border-color .2s ease, background .2s ease, color .2s ease;
+  }
+  .footer-bottom .socials a:hover{border-color:var(--sage); background:var(--sage); color:#0c130d;}
+  .footer-bottom .to-top{color:var(--ink-muted); letter-spacing:.04em; transition:color .2s ease;}
+  .footer-bottom .to-top:hover{color:var(--sage-dark);}
+  .footer-ghost{
+    position:absolute; left:50%; transform:translateX(-50%); bottom:-2.2vw; z-index:0;
+    font-family:var(--serif); font-size:min(19vw,290px); line-height:.8; white-space:nowrap;
+    color:rgba(23,22,15,.05); pointer-events:none; user-select:none;
+  }
+
+  /* ---------- REVEAL ---------- */
+  .reveal{opacity:0; transform:translateY(24px); transition:opacity .7s ease, transform .7s ease;}
+  .reveal.in{opacity:1; transform:none;}
+
+  a:focus-visible, button:focus-visible{outline:2px solid var(--sage); outline-offset:3px; border-radius:2px;}
+
+  /* ---------- REDUCED MOTION ---------- */
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    .ticker-track{animation:none;}
+    .reveal{opacity:1; transform:none; transition:none;}
+    *{transition:none!important;}
+    .hero-badges, .hero-orbit, .hero-orbit-spin, .badge-avail .dot::after, .orbit-core::before{animation:none;}
+    .mouse-glow{display:none;}
+  }
+
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width:980px){
+    .hero-grid{order:1; padding:112px 40px 40px;}
+    .hero-copy{max-width:none;}
+    .hero-portrait{order:2; position:relative; inset:auto; width:100%; height:320px;}
+    .ticker{order:3;}
+    .hero-badges{top:18px; right:18px;}
+    .hero-orbit{width:84px; height:84px; bottom:18px; right:18px;}
+    .about-grid, .cta-grid{grid-template-columns:1fr; gap:40px;}
+    .svc-explorer{grid-template-columns:1fr; gap:24px;}
+    .svc-tab{font-size:20px; padding:20px 10px 20px 18px;}
+    .svc-panel{padding:38px 28px;}
+    .svc-ghost{font-size:110px; top:4px; right:16px;}
+    .work-grid{grid-template-columns:1fr; gap:26px;}
+    .work-thumb{aspect-ratio:16/10;}
+    .work-view{opacity:1; background:linear-gradient(180deg, rgba(11,11,10,0) 55%, rgba(11,11,10,.6));}
+    .work-view span{transform:none;}
+    .work-stats{grid-template-columns:repeat(2,1fr);}
+    .work-stat{border-bottom:1px solid var(--line-light);}
+    .work-stat:nth-child(2n){border-right:0;}
+    .how-timeline{grid-template-columns:1fr; gap:0;}
+    .how-step{display:grid; grid-template-columns:42px 1fr; gap:22px; padding-bottom:36px;}
+    .how-node{margin-bottom:0;}
+    .how-step:not(:last-child)::after{
+      top:42px; bottom:-1px; left:20px; width:1px; height:auto;
+      background:linear-gradient(180deg, var(--sage), var(--line-light));
+    }
+    .how-body{padding-top:7px;}
+    .stack-grid{grid-template-columns:repeat(2,1fr);}
+    .footer-top{grid-template-columns:1fr 1fr; gap:40px 32px;}
+    .footer-brand{grid-column:1 / -1;}
+    .section-head{grid-template-columns:1fr;}
+    .section-head .note{text-align:left; justify-self:start; max-width:100%;}
+    .nav-links{display:none;}
+    .nav-cta{display:none;}
+    .nav-right::before{display:none;}
+    .burger{display:flex;}
+  }
+  @media (max-width:420px){
+    .mobile-menu{padding:100px 22px 30px;}
+    .mobile-links a{font-size:27px; padding:13px 0;}
+    .mm-footer{gap:14px;}
+  }
+  @media (max-width:560px){
+    .wrap{padding:0 22px;}
+    section{padding:80px 0;}
+    .hero-grid{padding:100px 22px 34px;}
+    .stack-grid{grid-template-columns:1fr;}
+    .footer-top{grid-template-columns:1fr; gap:34px;}
+    .footer-bottom{justify-content:flex-start; gap:18px;}
+    .footer-ghost{font-size:26vw; bottom:-1vw;}
+    .hero-portrait{height:260px;}
+    .hero-orbit{display:none;}
+    .hero-actions, .about-actions, .cta-actions{flex-wrap:wrap; row-gap:16px;}
+    .faq-q{padding:20px 18px; gap:14px; font-size:17.5px;}
+    .faq-q .q-idx{display:none;}
+    .faq-a p{padding:0 18px 22px;}
+  }
+</style>
+</head>
+<body>
+
+<a href="#work" class="skip-link">Skip to content</a>
+
+<div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+<header id="siteHeader">
+  <nav class="navbar" aria-label="Primary">
+    <a href="#home" class="brand">
+      <span class="brand-mark" aria-hidden="true">CM</span>
+      <span class="logo">Carl Madelo</span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <span class="nav-liquid" id="navLiquid" aria-hidden="true"></span>
+      <a href="#home" data-section="home"><span class="mi-idx">01</span>Home</a>
+      <a href="#about" data-section="about"><span class="mi-idx">02</span>About</a>
+      <a href="#services" data-section="services"><span class="mi-idx">03</span>Services</a>
+      <a href="#work" data-section="work"><span class="mi-idx">04</span>Work</a>
+      <a href="#how" data-section="how"><span class="mi-idx">05</span>How</a>
+    </div>
+    <div class="nav-right">
+      <a href="#contact" class="btn nav-cta">Start a Project <span class="arrow">→</span></a>
+      <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <div class="mm-main">
+      <div class="mm-top">
+        <span class="mm-eyebrow">Menu</span>
+        <button class="mm-back" id="mmBack" type="button" aria-label="Close menu">
+          <span class="mm-back-arrow" aria-hidden="true">&#8592;</span> Back
+        </button>
+      </div>
+      <nav class="mobile-links" aria-label="Mobile">
+        <a href="#home"><span class="mi-idx">01</span>Home</a>
+        <a href="#about"><span class="mi-idx">02</span>About</a>
+        <a href="#services"><span class="mi-idx">03</span>Services</a>
+        <a href="#work"><span class="mi-idx">04</span>Work</a>
+        <a href="#how"><span class="mi-idx">05</span>How It Works</a>
+      </nav>
+    </div>
+    <div class="mm-footer">
+      <span class="mm-avail"><span class="dot"></span>Available for select projects</span>
+      <div class="mm-contact">
+        <span class="mm-label">Get in touch</span>
+        <a href="mailto:hello@carlmadelo.com" class="mm-email">hello@carlmadelo.com</a>
+      </div>
+      <a href="#contact" class="btn btn-solid mm-cta">Start a Project</a>
+      <div class="mm-social">
+        <a href="mailto:hello@carlmadelo.com" aria-label="Email">&#9993;</a>
+        <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+      </div>
+      <span class="mm-meta">&copy; 2026 Carl Madelo &middot; Duda Web Designer &amp; Developer</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="home" style="padding-bottom:0;">
+    <div class="hero-portrait">
+      <div class="hero-badges">
+        <span class="badge-avail badge-outline"><span class="dot"></span>Available for projects</span>
+        <span class="badge-duda">Duda 2.0</span>
+      </div>
+      <div class="hero-orbit" aria-hidden="true">
+        <div class="hero-orbit-spin">
+          <svg viewBox="0 0 100 100" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs><path id="orbitPath" d="M 50,50 m -42,0 a 42,42 0 1,1 84,0 a 42,42 0 1,1 -84,0"/></defs>
+            <circle cx="50" cy="50" r="42" fill="none" stroke="var(--line-dark)" stroke-width="1"/>
+            <text font-size="8.6" letter-spacing="2.2" fill="var(--cream)" opacity=".85">
+              <textPath href="#orbitPath" xlink:href="#orbitPath">DUDA EXPERT • WEB DESIGNER • DEVELOPER • </textPath>
+            </text>
+          </svg>
+        </div>
+        <span class="orbit-core"></span>
+      </div>
+    </div>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow light">Duda Web Designer &amp; Developer</p>
+        <h1>Design that<br><em>performs.</em></h1>
+        <p class="lede">Carl Madelo builds Duda websites that elevate your brand and convert attention into real business.</p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-solid">View Selected Work</a>
+          <a href="#about" class="btn-ghost">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>UI/UX Design</span><span>Web Development</span><span>Duda Expert</span><span>Responsive Design</span><span>SEO Structure</span><span>Branding</span><span>Conversion&#8209;First</span>
+        <span>UI/UX Design</span><span>Web Development</span><span>Duda Expert</span><span>Responsive Design</span><span>SEO Structure</span><span>Branding</span><span>Conversion&#8209;First</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">Selected Work</p>
+          <h2>Curated for<br><em>clarity.</em></h2>
+        </div>
+        <p class="note">Projects delivered across industries — all designed and built on Duda.</p>
+      </div>
+
+      <div class="work-grid" id="workGrid">
+        <a class="work-card reveal" href="https://www.drivewaysbicester.co.uk/" target="_blank" rel="noopener">
+          <span class="work-thumb fit-whole">
+            <img class="work-shot" src="drivewaysbicester.png" alt="Driveways Bicester website screenshot" loading="lazy">
+            <span class="work-view"><span>View Live Site &#8594;</span></span>
+          </span>
+          <h3 class="work-title">Driveway Bicester</h3>
+        </a>
+
+        <a class="work-card reveal" href="https://www.cube21.co.uk/" target="_blank" rel="noopener">
+          <span class="work-thumb">
+            <img class="work-shot" src="Cube21.png" alt="Cube 21 website screenshot" loading="lazy">
+            <span class="work-view"><span>View Live Site &#8594;</span></span>
+          </span>
+          <h3 class="work-title">Cube 21</h3>
+        </a>
+
+        <a class="work-card reveal" href="https://www.szclassichomes.com/" target="_blank" rel="noopener">
+          <span class="work-thumb">
+            <img class="work-shot" src="szclassic.png" alt="SZ Classic Homes website screenshot" loading="lazy">
+            <span class="work-view"><span>View Live Site &#8594;</span></span>
+          </span>
+          <h3 class="work-title">SZ Classic Homes</h3>
+        </a>
+      </div>
+
+      <div class="work-stats reveal">
+        <div class="work-stat"><span class="num">12+</span><span class="lbl">Duda projects delivered</span></div>
+        <div class="work-stat"><span class="num">100%</span><span class="lbl">Built &amp; launched on Duda</span></div>
+        <div class="work-stat"><span class="num">40%</span><span class="lbl">Avg. increase in lead requests</span></div>
+        <div class="work-stat"><span class="num">3</span><span class="lbl">Industries served, and growing</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="wrap about-grid">
+      <div class="reveal">
+        <p class="eyebrow light">About</p>
+        <h2>Craft meets<br><em>strategy.</em></h2>
+        <div class="about-actions">
+          <a href="#work" class="btn btn-solid">View Selected Work</a>
+          <a href="#contact" class="btn-ghost">Get in Touch</a>
+        </div>
+      </div>
+      <div class="about-copy reveal">
+        <p class="eyebrow light">About Me</p>
+        <p><strong>Carl Madelo</strong> is a <strong>Certified Duda Professional</strong> with 15+ years in web and design, specializing in <strong>Duda Flex and Duda 2.0</strong>. I design and build high&#8209;performing, conversion&#8209;focused websites aligned with both agency and client expectations.</p>
+        <p>I've delivered projects end&#8209;to&#8209;end, from <strong>full builds</strong> to <strong>platform migrations</strong>, creating scalable, responsive experiences across desktop, tablet, and mobile. Each project is grounded in <strong>clean design, optimized performance,</strong> and long&#8209;term user experience.</p>
+        <p>Beyond design, I focus on speed, <strong>SEO&#8209;ready structure,</strong> and long&#8209;term scalability, ensuring intuitive layouts built to convert. I bring clear communication, fast turnaround, and meticulous attention to detail, supporting agencies with reliable, high&#8209;quality execution.</p>
+        <hr>
+        <div class="tag-row">
+          <span>Duda 2.0 &amp; Flex</span>
+          <span>UI Design</span>
+          <span>SEO</span>
+          <span>Figma</span>
+          <span>CMS</span>
+          <span>GHL Web Design</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">Services</p>
+          <h2>What I<br><em>offer.</em></h2>
+        </div>
+        <p class="note">Available for select projects. Inquire to confirm current availability.</p>
+      </div>
+
+      <div class="svc-explorer reveal">
+        <div class="svc-menu" role="tablist" aria-label="Services">
+          <button class="svc-tab" role="tab" id="stab-1" aria-controls="spanel-1" aria-selected="true"><span class="idx">01</span>Website Design &amp; Build</button>
+          <button class="svc-tab" role="tab" id="stab-2" aria-controls="spanel-2" aria-selected="false" tabindex="-1"><span class="idx">02</span>Website Redesign &amp; Revamp</button>
+          <button class="svc-tab" role="tab" id="stab-3" aria-controls="spanel-3" aria-selected="false" tabindex="-1"><span class="idx">03</span>SEO&#8209;Ready Structure</button>
+          <button class="svc-tab" role="tab" id="stab-4" aria-controls="spanel-4" aria-selected="false" tabindex="-1"><span class="idx">04</span>Performance &amp; UX</button>
+          <button class="svc-tab" role="tab" id="stab-5" aria-controls="spanel-5" aria-selected="false" tabindex="-1"><span class="idx">05</span>Responsive Builds</button>
+        </div>
+
+        <div class="svc-stage">
+          <div class="svc-panel active" role="tabpanel" id="spanel-1" aria-labelledby="stab-1">
+            <span class="svc-ghost" aria-hidden="true">01</span>
+            <span class="cat">Design &amp; Build</span>
+            <h3>Website Design &amp; Build</h3>
+            <p>Custom-built websites designed to position your brand at a higher level — not just visually but structurally. Every layout, section, and interaction is crafted to guide visitors toward action, turning attention into qualified leads.</p>
+            <span class="svc-inc-label">What's included</span>
+            <div class="svc-tags"><span>Custom UX structure</span><span>Visual design</span><span>Conversion-focused layout</span><span>Responsive build</span></div>
+          </div>
+
+          <div class="svc-panel" role="tabpanel" id="spanel-2" aria-labelledby="stab-2" hidden>
+            <span class="svc-ghost" aria-hidden="true">02</span>
+            <span class="cat">Redesign</span>
+            <h3>Website Redesign &amp; Revamp</h3>
+            <p>A complete overhaul for websites that no longer reflect the quality of your business. I restructure, refine, and elevate your site so it communicates credibility instantly and performs like a modern sales tool.</p>
+            <span class="svc-inc-label">What's included</span>
+            <div class="svc-tags"><span>Structural overhaul</span><span>Brand-aligned visuals</span><span>Content migration</span><span>SEO preserved</span></div>
+          </div>
+
+          <div class="svc-panel" role="tabpanel" id="spanel-3" aria-labelledby="stab-3" hidden>
+            <span class="svc-ghost" aria-hidden="true">03</span>
+            <span class="cat">Structure</span>
+            <h3>SEO&#8209;Ready &amp; Scalable Structure</h3>
+            <p>Built with search visibility and future growth in mind from day one. Clean structure, proper hierarchy, and on&#8209;page foundations that help your site rank, scale, and stay adaptable as your business evolves.</p>
+            <span class="svc-inc-label">What's included</span>
+            <div class="svc-tags"><span>Semantic hierarchy</span><span>On-page foundations</span><span>Clean markup</span><span>Scalable CMS</span></div>
+          </div>
+
+          <div class="svc-panel" role="tabpanel" id="spanel-4" aria-labelledby="stab-4" hidden>
+            <span class="svc-ghost" aria-hidden="true">04</span>
+            <span class="cat">Optimization</span>
+            <h3>Performance &amp; UX Improvements</h3>
+            <p>Strategic improvements that remove friction and increase conversions. From page speed to user flow, every adjustment is focused on keeping visitors engaged and moving them toward inquiry.</p>
+            <span class="svc-inc-label">What's included</span>
+            <div class="svc-tags"><span>Speed optimization</span><span>User-flow refinement</span><span>Friction removal</span><span>Conversion tuning</span></div>
+          </div>
+
+          <div class="svc-panel" role="tabpanel" id="spanel-5" aria-labelledby="stab-5" hidden>
+            <span class="svc-ghost" aria-hidden="true">05</span>
+            <span class="cat">Delivery</span>
+            <h3>Responsive &amp; Optimized Builds</h3>
+            <p>Seamless performance across desktop, tablet, and mobile, without compromise. Your site is designed to look sharp, load fast, and function flawlessly wherever your audience finds it.</p>
+            <span class="svc-inc-label">What's included</span>
+            <div class="svc-tags"><span>Desktop / tablet / mobile</span><span>Fast load</span><span>Cross-device QA</span><span>Pixel precision</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how" id="how">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">How It Works</p>
+          <h2>A refined<br><em>methodology.</em></h2>
+        </div>
+      </div>
+      <div class="how-timeline">
+        <div class="how-step reveal"><div class="how-node">01</div><div class="how-body"><h3>Discover</h3><p>We define what your website needs to achieve. Clear goals, audience insight, and conversion focus — no guesswork.</p></div></div>
+        <div class="how-step reveal"><div class="how-node">02</div><div class="how-body"><h3>Architect</h3><p>We design the experience. Structure, flow, and hierarchy shaped around how users move and decide.</p></div></div>
+        <div class="how-step reveal"><div class="how-node">03</div><div class="how-body"><h3>Design</h3><p>We craft the interface. Visuals that communicate, guide, and elevate your brand with precision.</p></div></div>
+        <div class="how-step reveal"><div class="how-node">04</div><div class="how-body"><h3>Build</h3><p>We build it with care. Responsive, refined, and ready to perform across every device.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section class="stack">
+    <div class="wrap">
+      <div class="section-head on-dark reveal" style="margin-bottom:40px;">
+        <div>
+          <p class="eyebrow light">Stack</p>
+          <h2>Built<br><em>with.</em></h2>
+        </div>
+        <p class="note">Six tools, one workflow — from first wireframe to client handoff. Tap any tool to see its role.</p>
+      </div>
+      <div class="stack-grid reveal">
+        <button class="stack-card" style="--brand:#a259ff" aria-expanded="false">
+          <span class="sc-top"><span class="sc-mark">Fi</span><span class="sc-meta"><span class="sc-name">Figma</span><span class="sc-phase">Design</span></span><span class="sc-plus" aria-hidden="true"></span></span>
+          <p class="sc-role">Interface design, prototypes, and design systems — mapped out before a single section gets built.</p>
+        </button>
+        <button class="stack-card" style="--brand:#f2622e" aria-expanded="false">
+          <span class="sc-top"><span class="sc-mark">Du</span><span class="sc-meta"><span class="sc-name">Duda</span><span class="sc-phase">Build</span></span><span class="sc-plus" aria-hidden="true"></span></span>
+          <p class="sc-role">Where every site is built — Duda Flex and Duda 2.0 for agency-grade, client-editable websites.</p>
+        </button>
+        <button class="stack-card" style="--brand:#c98a52" aria-expanded="false">
+          <span class="sc-top"><span class="sc-mark">Cl</span><span class="sc-meta"><span class="sc-name">Claude</span><span class="sc-phase">AI Assist</span></span><span class="sc-plus" aria-hidden="true"></span></span>
+          <p class="sc-role">Rapid ideation, copy drafts, and problem-solving support throughout design and build.</p>
+        </button>
+        <button class="stack-card" style="--brand:#4c9aff" aria-expanded="false">
+          <span class="sc-top"><span class="sc-mark">Cu</span><span class="sc-meta"><span class="sc-name">ClickUp</span><span class="sc-phase">Manage</span></span><span class="sc-plus" aria-hidden="true"></span></span>
+          <p class="sc-role">Project tracking, timelines, and clear status from kickoff through to launch.</p>
+        </button>
+        <button class="stack-card" style="--brand:#8b6ca8" aria-expanded="false">
+          <span class="sc-top"><span class="sc-mark">Sl</span><span class="sc-meta"><span class="sc-name">Slack</span><span class="sc-phase">Communicate</span></span><span class="sc-plus" aria-hidden="true"></span></span>
+          <p class="sc-role">Fast, async communication with agencies and stakeholders at every stage.</p>
+        </button>
+        <button class="stack-card" style="--brand:#37bc71" aria-expanded="false">
+          <span class="sc-top"><span class="sc-mark">Hl</span><span class="sc-meta"><span class="sc-name">HighLevel</span><span class="sc-phase">Deliver</span></span><span class="sc-plus" aria-hidden="true"></span></span>
+          <p class="sc-role">GHL web design and CRM-connected builds for a smooth client handoff.</p>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">FAQ</p>
+          <h2>Common<br><em>questions.</em></h2>
+        </div>
+        <p class="note">A few things clients often ask about my services, process, and how I help businesses build effective websites.</p>
+      </div>
+
+      <div class="faq-grid reveal" id="faqList">
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span class="q-idx">01</span>
+            <span class="q-text">What services do you offer as a web designer and developer?</span>
+            <span class="plus" aria-hidden="true"></span>
+          </button>
+          <div class="faq-a"><p>I design and build full websites on Duda — from initial UX structure and visual design through to a finished, responsive build. That includes new-site design, redesigns of existing sites, SEO-ready structure, and ongoing performance improvements.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span class="q-idx">02</span>
+            <span class="q-text">Can you redesign my existing website?</span>
+            <span class="plus" aria-hidden="true"></span>
+          </button>
+          <div class="faq-a"><p>Yes. I regularly take outdated or underperforming sites and rebuild them on Duda with a stronger structure, clearer messaging, and a design that reflects the quality of the business — without losing the content and SEO equity already in place.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span class="q-idx">03</span>
+            <span class="q-text">Are your websites optimized for performance and mobile devices?</span>
+            <span class="plus" aria-hidden="true"></span>
+          </button>
+          <div class="faq-a"><p>Every build is designed desktop, tablet, and mobile first, tested for load speed, and structured so it stays fast and usable as content is added over time.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span class="q-idx">04</span>
+            <span class="q-text">What platform do you build on?</span>
+            <span class="plus" aria-hidden="true"></span>
+          </button>
+          <div class="faq-a"><p>I build exclusively on Duda, using both Duda Flex and Duda 2.0, which lets me deliver agency-grade, highly customized sites with a fast, reliable content-editing experience for clients afterward.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span class="q-idx">05</span>
+            <span class="q-text">What does a typical project timeline look like?</span>
+            <span class="plus" aria-hidden="true"></span>
+          </button>
+          <div class="faq-a"><p>It depends on scope, but most single-site projects move through discovery, design, and build in a matter of weeks. I take one project at a time, so you get focused attention and a clear, predictable schedule from kickoff to launch.</p></div>
+        </div>
+      </div>
+
+      <p class="faq-more reveal">
+        <span>Still have a question?</span>
+        <a href="mailto:hello@carlmadelo.com">Email me directly &#8594;</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta" id="contact">
+    <div class="wrap cta-grid">
+      <div class="reveal">
+        <p class="eyebrow light"><span class="badge-avail" style="position:static; display:inline-flex;"><span class="dot"></span>Available for select projects</span></p>
+        <h2>Let's build something<br><em>worth noticing.</em></h2>
+        <p class="lede">One project at a time. Selective by design. Reach out to discuss your brief.</p>
+        <div class="cta-actions">
+          <a href="mailto:hello@carlmadelo.com" class="btn btn-solid">Start the Conversation</a>
+          <a href="#work" class="btn-ghost">View My Work</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="f-logo">Carl Madelo</span>
+        <p>Conversion-focused Duda websites that elevate your brand and turn attention into real business. Selective by design — one project at a time.</p>
+        <span class="footer-avail"><span class="dot"></span> Available for select projects</span>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#how">How It Works</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="mailto:hello@carlmadelo.com">Email</a></li>
+          <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Start a Project</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Carl Madelo &middot; Duda Web Designer &amp; Developer</span>
+      <div class="socials">
+        <a href="mailto:hello@carlmadelo.com" aria-label="Email Carl">&#9993;</a>
+        <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+      </div>
+      <a href="#home" class="to-top">Back to top &#8593;</a>
+    </div>
+  </div>
+  <span class="footer-ghost" aria-hidden="true">Carl Madelo</span>
+</footer>
+
+<script>
+  // mouse glow (fine pointers only, respects reduced motion)
+  (function(){
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    if (!window.matchMedia('(pointer: fine)').matches) return;
+
+    const glow = document.createElement('div');
+    glow.className = 'mouse-glow';
+    glow.setAttribute('aria-hidden', 'true');
+    document.body.appendChild(glow);
+
+    let tx = innerWidth / 2, ty = innerHeight / 2, cx = tx, cy = ty, raf = null;
+
+    function loop(){
+      cx += (tx - cx) * 0.12;
+      cy += (ty - cy) * 0.12;
+      glow.style.transform = 'translate(' + cx + 'px, ' + cy + 'px) translate(-50%, -50%)';
+      if (Math.abs(tx - cx) > 0.4 || Math.abs(ty - cy) > 0.4) raf = requestAnimationFrame(loop);
+      else raf = null;
+    }
+    window.addEventListener('mousemove', (e) => {
+      tx = e.clientX; ty = e.clientY;
+      glow.style.opacity = 1;
+      if (!raf) raf = requestAnimationFrame(loop);
+    }, { passive: true });
+    document.addEventListener('mouseleave', () => { glow.style.opacity = 0; });
+  })();
+
+  // mobile menu (iris reveal from the burger button)
+  const burger = document.getElementById('burger');
+  const mobileMenu = document.getElementById('mobileMenu');
+  function setMenu(open){
+    if (open) {
+      const r = burger.getBoundingClientRect();
+      const cx = r.left + r.width / 2, cy = r.top + r.height / 2;
+      const radius = Math.hypot(Math.max(cx, window.innerWidth - cx), Math.max(cy, window.innerHeight - cy));
+      mobileMenu.style.setProperty('--ix', cx + 'px');
+      mobileMenu.style.setProperty('--iy', cy + 'px');
+      mobileMenu.style.setProperty('--ir', radius + 'px');
+    } else {
+      mobileMenu.style.setProperty('--ir', '0px');
+    }
+    burger.classList.toggle('open', open);
+    mobileMenu.classList.toggle('open', open);
+    burger.setAttribute('aria-expanded', open);
+    mobileMenu.setAttribute('aria-hidden', !open);
+    document.body.style.overflow = open ? 'hidden' : '';
+  }
+  burger.addEventListener('click', () => setMenu(!mobileMenu.classList.contains('open')));
+  const mmBack = document.getElementById('mmBack');
+  if (mmBack) mmBack.addEventListener('click', () => setMenu(false));
+  mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && mobileMenu.classList.contains('open')) setMenu(false);
+  });
+
+  // scroll progress bar + darkened navbar background once scrolled
+  const progressBar = document.getElementById('progressBar');
+  const siteHeader = document.getElementById('siteHeader');
+  function onScroll(){
+    const h = document.documentElement;
+    const scrolled = h.scrollTop || document.body.scrollTop;
+    const height = h.scrollHeight - h.clientHeight;
+    progressBar.style.width = (height > 0 ? (scrolled / height) * 100 : 0) + '%';
+    siteHeader.classList.toggle('scrolled', scrolled > 40);
+  }
+  document.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  // scrollspy + liquid sliding highlight
+  const navLinksWrap = document.getElementById('navLinks');
+  const navLiquid = document.getElementById('navLiquid');
+  const navLinks = Array.from(document.querySelectorAll('.nav-links a'));
+  let activeLink = navLinks[0];
+
+  function moveLiquid(target){
+    if (!target || !navLinksWrap) return;
+    const rect = target.getBoundingClientRect();
+    const parentRect = navLinksWrap.getBoundingClientRect();
+    navLiquid.style.opacity = 1;
+    navLiquid.style.width = rect.width + 'px';
+    navLiquid.style.transform = 'translateX(' + (rect.left - parentRect.left) + 'px)';
+    navLinks.forEach(a => a.classList.toggle('is-lit', a === target));
+  }
+
+  navLinks.forEach(a => {
+    a.addEventListener('mouseenter', () => moveLiquid(a));
+  });
+  navLinksWrap.addEventListener('mouseleave', () => moveLiquid(activeLink));
+
+  const spySections = navLinks
+    .map(a => document.getElementById(a.dataset.section))
+    .filter(Boolean);
+  const spy = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      const link = navLinks.find(a => a.dataset.section === entry.target.id);
+      if (!link) return;
+      if (entry.isIntersecting) {
+        navLinks.forEach(a => a.classList.remove('active'));
+        link.classList.add('active');
+        activeLink = link;
+        if (!navLinksWrap.matches(':hover')) moveLiquid(activeLink);
+      }
+    });
+  }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 });
+  spySections.forEach(s => spy.observe(s));
+
+  window.addEventListener('load', () => moveLiquid(activeLink));
+  window.addEventListener('resize', () => moveLiquid(activeLink));
+
+  // faq accordion
+  document.querySelectorAll('.faq-item').forEach(item => {
+    const q = item.querySelector('.faq-q');
+    const a = item.querySelector('.faq-a');
+    q.addEventListener('click', () => {
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(o => {
+        o.classList.remove('open');
+        o.querySelector('.faq-a').style.maxHeight = null;
+        o.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
+      });
+      if (!isOpen) {
+        item.classList.add('open');
+        a.style.maxHeight = a.scrollHeight + 'px';
+        q.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
+  // service explorer (tabs)
+  const svcTabs = Array.from(document.querySelectorAll('.svc-tab'));
+  const svcPanels = Array.from(document.querySelectorAll('.svc-panel'));
+  function selectSvc(i){
+    svcTabs.forEach((t, k) => {
+      const on = k === i;
+      t.setAttribute('aria-selected', on);
+      t.tabIndex = on ? 0 : -1;
+    });
+    svcPanels.forEach((p, k) => {
+      const on = k === i;
+      p.classList.toggle('active', on);
+      p.hidden = !on;
+    });
+  }
+  svcTabs.forEach((tab, i) => {
+    tab.addEventListener('click', () => selectSvc(i));
+    tab.addEventListener('keydown', (e) => {
+      let next = null;
+      if (e.key === 'ArrowDown' || e.key === 'ArrowRight') next = (i + 1) % svcTabs.length;
+      if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') next = (i - 1 + svcTabs.length) % svcTabs.length;
+      if (e.key === 'Home') next = 0;
+      if (e.key === 'End') next = svcTabs.length - 1;
+      if (next !== null) { e.preventDefault(); selectSvc(next); svcTabs[next].focus(); }
+    });
+  });
+
+  // stack cards (tap / keyboard to pin open; hover handled by CSS)
+  document.querySelectorAll('.stack-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const open = card.classList.toggle('open');
+      card.setAttribute('aria-expanded', open);
+    });
+  });
+
+  // scroll reveal
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+
+</body>
+</html>
