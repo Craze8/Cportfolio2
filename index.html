@@ -43,8 +43,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <!-- LCP hints — swap to .webp once converted -->
-<link rel="preload" as="image" href="hero-bg.png" fetchpriority="high">
-<link rel="preload" as="image" href="portrait.png" fetchpriority="high">
+<link rel="preload" as="image" href="/hero-bg.png" fetchpriority="high">
+<link rel="preload" as="image" href="/portrait.png" fetchpriority="high">
 
 <!-- ===== Structured data (@graph: Person + Service entity + WebSite + FAQPage + portfolio) ===== -->
 <script type="application/ld+json">
@@ -500,7 +500,7 @@
   .hero{
     background:
       linear-gradient(rgba(11,11,10,.38), rgba(11,11,10,.80)),
-      url('hero-bg.png') center/cover no-repeat,
+      url('/hero-bg.png') center/cover no-repeat,
       var(--dark);
     color:var(--cream); position:relative; overflow:hidden;
     display:flex; flex-direction:column;
@@ -704,8 +704,8 @@
   /* ---------- ABOUT ---------- */
   .about{
     background:
-      linear-gradient(rgba(17,17,16,.56), rgba(17,17,16,.52)),
-      url('about-bg.png') center/cover no-repeat,
+      linear-gradient(rgba(17,17,16,.30), rgba(17,17,16,.22)),
+      url('/about-bg.png') center/cover no-repeat,
       var(--dark-2);
     color:var(--cream); position:relative;
   }
@@ -924,8 +924,8 @@
   /* ---------- CTA ---------- */
   .cta{
     background:
-      linear-gradient(rgba(11,11,10,.52), rgba(11,11,10,.9)),
-      url('cta-bg.png') center/cover no-repeat,
+      linear-gradient(rgba(11,11,10,.10), rgba(11,11,10,.45)),
+      url('/cta-bg.png') center/cover no-repeat,
       var(--dark);
     color:var(--cream); position:relative; overflow:hidden;
   }
@@ -1109,7 +1109,7 @@
   <section class="hero" id="home" style="padding-bottom:0;">
     <div class="hero-portrait">
       <img class="portrait-img"
-           src="portrait.png"
+           src="/portrait.png"
            alt="Carl Madelo, Certified Duda Professional and web developer"
            width="1200" height="1500"
            fetchpriority="high" decoding="async">
@@ -1163,7 +1163,7 @@
       <div class="work-grid" id="workGrid">
         <article class="work-card reveal">
           <a class="work-thumb fit-whole" href="https://www.drivewaysbicester.co.uk/" target="_blank" rel="noopener" aria-label="View the Driveways Bicester website (opens in a new tab)">
-            <img class="work-shot" src="drivewaysbicester.png" alt="Driveways Bicester Duda website homepage" loading="lazy" decoding="async">
+            <img class="work-shot" src="/drivewaysbicester.png" alt="Driveways Bicester Duda website homepage" loading="lazy" decoding="async">
             <span class="work-view"><span>View Live Site &#8594;</span></span>
           </a>
           <div class="work-body">
@@ -1175,7 +1175,7 @@
 
         <article class="work-card reveal">
           <a class="work-thumb" href="https://www.cube21.co.uk/" target="_blank" rel="noopener" aria-label="View the Cube 21 website (opens in a new tab)">
-            <img class="work-shot" src="Cube21.png" alt="Cube 21 Duda website homepage" loading="lazy" decoding="async">
+            <img class="work-shot" src="/cube21.png" alt="Cube 21 Duda website homepage" loading="lazy" decoding="async">
             <span class="work-view"><span>View Live Site &#8594;</span></span>
           </a>
           <div class="work-body">
@@ -1187,7 +1187,7 @@
 
         <article class="work-card reveal">
           <a class="work-thumb" href="https://www.szclassichomes.com/" target="_blank" rel="noopener" aria-label="View the SZ Classic Homes website (opens in a new tab)">
-            <img class="work-shot" src="szclassic.png" alt="SZ Classic Homes Duda website homepage" loading="lazy" decoding="async">
+            <img class="work-shot" src="/szclassic.png" alt="SZ Classic Homes Duda website homepage" loading="lazy" decoding="async">
             <span class="work-view"><span>View Live Site &#8594;</span></span>
           </a>
           <div class="work-body">
