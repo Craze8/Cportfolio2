@@ -107,6 +107,11 @@ function head({ site, title, description, canonical, indexable, schema, breadcru
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/pseo.css">
 
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+
 <script type="application/ld+json">
 ${JSON.stringify(schema, null, 2)}
 </script>
