@@ -1,0 +1,323 @@
+{
+  "site": {
+    "name": "Carl Madelo",
+    "domain": "https://carlmadelo.com",
+    "email": "hello@carlmadelo.com",
+    "author": "Carl Madelo",
+    "jobTitle": "Duda Web Designer & Developer",
+    "linkedin": "https://www.linkedin.com/in/carlmadelo/",
+    "ogImage": "https://carlmadelo.com/og-image.jpg",
+    "personId": "https://carlmadelo.com/#carl",
+    "businessId": "https://carlmadelo.com/#business"
+  },
+
+  "_notes": [
+    "status: 'published' => indexable + in sitemap. Anything else => noindex + excluded.",
+    "build.mjs also enforces a minimum unique-word count per page. Thin pages are auto-noindexed even if marked published.",
+    "Do NOT add pricing figures here unless you have verified them on the vendor's site the same week you publish.",
+    "Each page must have its own intro, verdict and faqs. Never reuse a paragraph across two pages."
+  ],
+
+  "clusters": [
+    {
+      "type": "comparison",
+      "slug": "duda-vs",
+      "hub": {
+        "eyebrow": "Platform comparisons",
+        "h1": "Duda vs the alternatives",
+        "title": "Duda vs Other Website Platforms — Honest Comparisons",
+        "description": "Build-level comparisons of Duda against WordPress, Wix, Squarespace, Webflow and GoHighLevel, written by a Certified Duda Professional.",
+        "intro": "I build exclusively on Duda, so treat these as the opinion of someone with a horse in the race — but an informed one. Each comparison is written from projects I have actually delivered, and each one states plainly where the other platform is the better choice. If a client's requirements point away from Duda, I would rather say so on a page like this than three weeks into a build."
+      },
+      "pages": [
+        {
+          "slug": "wordpress",
+          "status": "published",
+          "competitor": "WordPress",
+          "title": "Duda vs WordPress: Which Should You Build On? (2026)",
+          "description": "A Duda developer's honest comparison of Duda and WordPress — maintenance load, client editing, performance and when WordPress is still the right call.",
+          "h1": "Duda vs WordPress",
+          "lede": "The real difference is not features. It is who carries the maintenance burden after launch, and whether your client can safely edit their own site.",
+          "readTime": "8 min",
+          "intro": "Almost every business I migrate to Duda is coming off WordPress, and almost none of them left because WordPress could not do what they needed. They left because a plugin update broke the contact form, or the person who built the site stopped answering emails, or the theme they bought in 2019 stopped receiving updates. WordPress is the most capable website platform in existence and it is also the one that asks the most of whoever owns it. Duda is the opposite trade: a narrower ceiling, but almost nothing to maintain. Which of those trades is correct depends entirely on whether you have someone whose job it is to look after the site.",
+          "tableCaption": "Duda vs WordPress at a build level",
+          "table": [
+            { "criterion": "Ongoing maintenance", "duda": "Platform updates handled by Duda. Nothing to patch on your side.", "other": "Core, theme and plugin updates are the site owner's responsibility, indefinitely.", "edge": "duda" },
+            { "criterion": "Client editing safety", "duda": "Content editing is sandboxed — a client cannot break the layout by editing text.", "other": "Depends entirely on how the theme or page builder was configured. Often fragile.", "edge": "duda" },
+            { "criterion": "Extensibility ceiling", "duda": "Widget Builder and custom code cover most needs, but you work inside Duda's model.", "other": "Effectively unlimited. Anything you can build in PHP, you can build here.", "edge": "other" },
+            { "criterion": "Complex functionality", "duda": "Memberships, basic ecommerce, forms, scheduling. Heavier logic needs external tools.", "other": "Mature plugin ecosystem for LMS, marketplaces, complex ecommerce, custom post types.", "edge": "other" },
+            { "criterion": "Performance out of the box", "duda": "Managed CDN and image handling by default. Fast without configuration.", "other": "Achievable, but requires caching, image optimisation and hosting decisions.", "edge": "duda" },
+            { "criterion": "Data portability", "duda": "Export is limited. Moving off Duda means a rebuild.", "other": "Full database and file access. You own everything.", "edge": "other" },
+            { "criterion": "Multi-site management", "duda": "Built for it — team accounts, reusable templates, one dashboard.", "other": "Multisite exists but is operationally heavy at agency scale.", "edge": "duda" },
+            { "criterion": "Security exposure", "duda": "Managed platform. No plugin supply chain to audit.", "other": "Every plugin is a dependency you inherit. This is the single biggest real-world risk.", "edge": "duda" }
+          ],
+          "sections": [
+            {
+              "h2": "Where WordPress genuinely wins",
+              "body": [
+                "If your site needs to do something unusual, WordPress will do it and Duda probably will not. Course platforms with drip content, marketplaces with vendor payouts, ecommerce with complex tax and shipping rules, membership tiers with conditional content, anything that needs a custom database table — that is WordPress territory and pretending otherwise wastes everyone's time.",
+                "The second real advantage is ownership. A WordPress site is a database and a folder of files that you control. If you fall out with your developer, you take the site elsewhere. Duda is a hosted platform: leaving means rebuilding. For some businesses that lock-in is an acceptable trade for not having to think about the site again. For others it is disqualifying, and that is a reasonable position."
+              ]
+            },
+            {
+              "h2": "Where Duda wins in practice",
+              "body": [
+                "The advantage that actually shows up in client relationships is that nothing rots. A Duda site built in 2023 still works in 2026 without anyone touching it. A WordPress site left alone for three years is a liability — outdated plugins, a PHP version the host no longer supports, and a login screen that has been getting probed daily the entire time.",
+                "The second is that clients can edit their own content without supervision. Duda separates content from layout properly, so a client updating an opening-hours line cannot accidentally delete a section or push the footer through the middle of the page. That single property removes most of the small, unbillable support requests that make small-business web work unprofitable."
+              ]
+            },
+            {
+              "h2": "How I decide on a project",
+              "body": [
+                "I ask one question first: after launch, who is responsible for this site? If the answer is a named person whose job includes it, WordPress is viable and its ceiling is worth having. If the answer is 'the owner, when they remember', Duda is the safer recommendation almost every time.",
+                "The second question is whether the site needs to do anything a brochure-plus-CMS cannot do. Service pages, location pages, project galleries, blog, forms, booking links, basic ecommerce — Duda handles all of it comfortably. The moment the brief includes custom application logic, I refer the project on rather than force it."
+              ]
+            }
+          ],
+          "verdict": {
+            "h2": "The verdict",
+            "body": [
+              "<strong>Choose WordPress</strong> if you need functionality beyond a marketing site, if you have technical maintenance covered, or if full data ownership is non-negotiable.",
+              "<strong>Choose Duda</strong> if the site's job is to present a business and generate enquiries, if nobody on your side wants to think about updates, and if a non-technical person needs to edit content safely.",
+              "For the construction, home-services and property clients I usually work with, Duda is the right answer roughly nine times in ten — not because it is more capable, but because the failure mode of an unmaintained WordPress site is so much worse than the failure mode of hitting Duda's ceiling."
+            ]
+          },
+          "proof": {
+            "text": "Driveways Bicester runs on Duda with service pages, a filterable finish gallery and quote forms — the kind of brief where WordPress would have added maintenance without adding capability.",
+            "linkText": "See the build",
+            "url": "https://www.drivewaysbicester.co.uk/"
+          },
+          "faqs": [
+            { "q": "Can I move my WordPress content to Duda?", "a": "Yes. Pages, posts, images and metadata all transfer. What does not transfer is plugin-driven functionality, so the first step of any migration is auditing which plugins are actually load-bearing and finding a Duda-native or third-party equivalent for each." },
+            { "q": "Will I lose my Google rankings switching from WordPress to Duda?", "a": "Not if the migration is done properly. Rankings are lost when URLs change without redirects, or when heading structure and metadata are rebuilt from scratch. A migration with a complete 301 map and preserved on-page structure typically sees no lasting change in organic traffic." },
+            { "q": "Is Duda cheaper than WordPress?", "a": "The licence cost is usually higher and the total cost is usually lower, because WordPress's real expense is maintenance, security and the developer time spent on breakages rather than hosting. Compare three-year totals rather than monthly figures." },
+            { "q": "Can I add custom code to a Duda site?", "a": "Yes. Duda supports custom HTML, CSS and JavaScript at site and page level, plus reusable custom widgets through the Widget Builder. It is not as open as a PHP codebase, but it covers considerably more than most people assume." }
+          ],
+          "related": ["wix", "squarespace", "webflow"],
+          "relatedMigration": "wordpress"
+        },
+
+        {
+          "slug": "wix",
+          "status": "published",
+          "competitor": "Wix",
+          "title": "Duda vs Wix: A Duda Developer's Honest Comparison",
+          "description": "How Duda and Wix differ on responsive control, client handoff, agency workflow and SEO — and when Wix is genuinely the better choice.",
+          "h1": "Duda vs Wix",
+          "lede": "Both are hosted, both are drag-and-drop, and they are aimed at completely different people. That is the whole comparison.",
+          "readTime": "6 min",
+          "intro": "Wix is built for the business owner who is going to make the site themselves. Duda is built for the professional who is going to make the site for somebody else. Everything that feels like a difference in quality between the two is really a difference in who the tool assumes is holding it. If you are a sole trader who wants a site this weekend and never wants to speak to a designer, Wix is a good product and I will not pretend otherwise. If a designer is involved, or an agency is managing more than one site, the calculus changes sharply.",
+          "tableCaption": "Duda vs Wix at a build level",
+          "table": [
+            { "criterion": "Who it is designed for", "duda": "Agencies, freelancers and teams building sites for clients.", "other": "Business owners building their own site.", "edge": "neutral" },
+            { "criterion": "Responsive control", "duda": "Independent control per breakpoint via Flex — desktop, tablet and mobile are properly designed.", "other": "Mobile layout is largely derived from desktop, with limited independent control.", "edge": "duda" },
+            { "criterion": "Client editing", "duda": "Granular permissions and a content-only editor mode for clients.", "other": "Clients get the full editor, including the ability to move and delete anything.", "edge": "duda" },
+            { "criterion": "Managing many sites", "duda": "Team accounts, reusable templates, white-label dashboard.", "other": "Each site is largely its own island.", "edge": "duda" },
+            { "criterion": "App marketplace", "duda": "Smaller, more curated set of integrations.", "other": "Large app market covering a wide range of niches.", "edge": "other" },
+            { "criterion": "Learning curve", "duda": "Assumes some design and web literacy.", "other": "Genuinely approachable for a complete beginner.", "edge": "other" },
+            { "criterion": "White labelling", "duda": "Full white-label available, so the platform stays invisible to the client.", "other": "Wix branding is present in the editing experience.", "edge": "duda" },
+            { "criterion": "Ecommerce depth", "duda": "Capable for straightforward catalogues.", "other": "More mature store features and payment integrations.", "edge": "other" }
+          ],
+          "sections": [
+            {
+              "h2": "The responsive difference is the one that matters",
+              "body": [
+                "This is the point I would raise first with any designer weighing the two up. In Duda Flex, mobile is not a compressed version of desktop — it is a layout you design, with its own spacing, its own stacking order and its own type scale. In Wix, the mobile view is substantially inherited, and getting it to behave requires working against the tool rather than with it.",
+                "For a personal site that difference is cosmetic. For a business where most traffic is a phone in someone's hand on a job site, it is the difference between a site that converts and one that people give up on. Every project I have taken over from Wix has had the same symptom: a desktop layout that looks fine and a mobile layout that nobody ever properly designed."
+              ]
+            },
+            {
+              "h2": "Where Wix is the right answer",
+              "body": [
+                "If nobody is being paid to build the site, use Wix. It is faster to get something live, the templates are decent, and the app market fills gaps that would otherwise need a developer. A business that genuinely cannot budget for a designer is better served by a competent Wix site than by an unfinished custom one.",
+                "Wix is also the stronger platform for a certain kind of small online store, and for owners who want to keep tinkering. Duda's guardrails, which are a feature when a client should not be moving things around, become a constraint when the owner actively wants to."
+              ]
+            },
+            {
+              "h2": "SEO: mostly a wash",
+              "body": [
+                "Both platforms have long since fixed the technical SEO problems they were criticised for a decade ago. Both let you control titles, meta descriptions, headings, canonical tags, redirects and structured data, and both produce crawlable markup. Anyone telling you one is inherently unrankable is repeating something they read in 2015.",
+                "The differences that remain are practical rather than technical. Duda gives cleaner bulk control over metadata across many pages, which matters if you are running location or service pages at scale. Wix gives you an SEO wizard that walks a non-specialist through the basics, which matters if there is no specialist. Neither will out-rank the other on platform alone."
+              ]
+            }
+          ],
+          "verdict": {
+            "h2": "The verdict",
+            "body": [
+              "<strong>Choose Wix</strong> if you are building the site yourself, have no design budget, want maximum app choice, or run a store with complex product needs.",
+              "<strong>Choose Duda</strong> if a designer is building it, if mobile traffic is the majority of your traffic, if a client needs to edit content without being able to break the layout, or if you are managing several sites at once.",
+              "The mistake I see most often is an agency choosing Wix because a client already had an account, then spending the whole project fighting the mobile editor. If a professional is doing the work, pick the tool built for professionals."
+            ]
+          },
+          "proof": {
+            "text": "SZ Classic Homes is a Duda build where the mobile layout was designed independently from desktop — large-format imagery on a phone without the type collapsing.",
+            "linkText": "See the build",
+            "url": "https://www.szclassichomes.com/"
+          },
+          "faqs": [
+            { "q": "Can I transfer a Wix site to Duda?", "a": "The content transfers; the site itself is rebuilt. Wix does not offer a meaningful export, so a Wix to Duda move means recreating the pages in Duda and mapping every existing URL to its new equivalent with 301 redirects." },
+            { "q": "Is Duda harder to use than Wix?", "a": "For a complete beginner, yes. For anyone with design experience, Duda is faster because the breakpoint controls behave predictably. The steeper start pays back on the second and third site." },
+            { "q": "Which is better for local SEO?", "a": "Neither has a platform-level advantage. Local ranking comes from your Google Business Profile, consistent citations, genuinely useful location pages and reviews. Both platforms let you implement LocalBusiness schema and per-page metadata properly." },
+            { "q": "Can clients still edit a Duda site themselves?", "a": "Yes, and that is one of Duda's better features. You can grant content-only access so a client can change text, swap images and publish updates, without giving them the ability to move sections or alter the layout." }
+          ],
+          "related": ["wordpress", "squarespace", "webflow"],
+          "relatedMigration": "wix"
+        },
+
+        { "slug": "squarespace", "status": "draft", "competitor": "Squarespace", "title": "Duda vs Squarespace", "description": "Comparison of Duda and Squarespace for agency and client website builds.", "h1": "Duda vs Squarespace", "lede": "", "intro": "", "table": [], "sections": [], "verdict": { "h2": "The verdict", "body": [] }, "faqs": [], "related": ["wordpress", "wix"] },
+        { "slug": "webflow", "status": "draft", "competitor": "Webflow", "title": "Duda vs Webflow", "description": "Comparison of Duda and Webflow for agency and client website builds.", "h1": "Duda vs Webflow", "lede": "", "intro": "", "table": [], "sections": [], "verdict": { "h2": "The verdict", "body": [] }, "faqs": [], "related": ["wordpress", "wix"] },
+        { "slug": "gohighlevel", "status": "draft", "competitor": "GoHighLevel", "title": "Duda vs GoHighLevel", "description": "Comparison of Duda and GoHighLevel for websites, funnels and CRM-connected builds.", "h1": "Duda vs GoHighLevel", "lede": "", "intro": "", "table": [], "sections": [], "verdict": { "h2": "The verdict", "body": [] }, "faqs": [], "related": ["wordpress", "wix"] },
+        { "slug": "godaddy-website-builder", "status": "draft", "competitor": "GoDaddy Website Builder", "title": "Duda vs GoDaddy Website Builder", "description": "Comparison of Duda and GoDaddy Website Builder for small business websites.", "h1": "Duda vs GoDaddy Website Builder", "lede": "", "intro": "", "table": [], "sections": [], "verdict": { "h2": "The verdict", "body": [] }, "faqs": [], "related": ["wordpress", "wix"] }
+      ]
+    },
+
+    {
+      "type": "migration",
+      "slug": "migrate-to-duda",
+      "hub": {
+        "eyebrow": "Migration guides",
+        "h1": "Migrating to Duda",
+        "title": "Migrate to Duda — Platform-by-Platform Guides",
+        "description": "Step-by-step guides for migrating from WordPress, Wix, Squarespace, GoDaddy and Weebly to Duda without losing search rankings.",
+        "intro": "Every migration on this site follows the same spine: inventory the existing URLs, decide what survives, map every old URL to a new one, rebuild with the heading structure and metadata intact, then crawl the live site twice — once at launch and once two weeks later. What changes between platforms is how painful the export step is, and what breaks silently. These guides cover both."
+      },
+      "pages": [
+        {
+          "slug": "wix",
+          "status": "published",
+          "from": "Wix",
+          "title": "Wix to Duda Migration: Step-by-Step Without Losing Rankings",
+          "description": "How to migrate a Wix site to Duda — URL inventory, 301 redirect mapping, content rebuild and post-launch checks, from a Certified Duda Professional.",
+          "h1": "Wix to Duda migration",
+          "lede": "Wix gives you no real export, so this is a rebuild dressed up as a migration. Done carefully, you still keep every ranking you have.",
+          "readTime": "9 min",
+          "intro": "The uncomfortable truth about leaving Wix is that there is no clean way out. There is no database dump, no theme folder, no XML file that carries your pages across. What you have is a live website and whatever you can extract from it. That sounds worse than it is: for a typical 15-to-40-page business site, a careful crawl-and-rebuild takes days rather than weeks, and because you are recreating everything by hand anyway, it is the natural moment to fix the structural problems the Wix site had. The part that actually determines whether you keep your traffic is the redirect map, and that is entirely within your control.",
+          "steps": [
+            { "h3": "Crawl the existing site before you touch anything", "p": "Run a full crawl of the live Wix site and export every indexable URL with its title, meta description, H1 and word count. This file is the single source of truth for the whole migration. Do this first, because once you start changing things you cannot recover what was there." },
+            { "h3": "Pull real performance data, not assumptions", "p": "Export twelve months of Search Console query and page data, plus your top landing pages from analytics. You are looking for the twenty percent of pages that earn nearly all the organic traffic — those get rebuilt faithfully, and the rest get consolidated or dropped." },
+            { "h3": "Decide what survives", "p": "Most Wix sites carry pages that exist for no reason. Mark each URL as keep, merge or drop. Merged and dropped pages still need redirects to the most relevant surviving page — never to the homepage by default, which Google frequently treats as a soft 404." },
+            { "h3": "Extract the content", "p": "Copy body copy, download full-resolution images from the Wix media manager, and record every form field and its destination. Wix images are served at transformed sizes, so pull originals rather than what the page renders, or you will bake in quality loss." },
+            { "h3": "Rebuild in Duda with structure preserved", "p": "Recreate each surviving page in Duda keeping the H1 and heading hierarchy semantically equivalent to the original. You can rewrite copy — you should, in most cases — but do not silently drop the topics the page currently ranks for." },
+            { "h3": "Build the 301 map", "p": "Every old URL maps to exactly one new URL. Watch for Wix's older hash-bang URL format on legacy sites, blog URLs under the /post/ path, and case sensitivity. Load the map into Duda's redirect manager before launch, not after." },
+            { "h3": "Move the domain, then verify", "p": "Point DNS at Duda, confirm HTTPS is issued, and re-verify the property in Search Console. Submit the new XML sitemap and, separately, keep the old URL list to spot-check redirects." },
+            { "h3": "Crawl twice", "p": "Crawl the live site the day of launch and again fourteen days later. The second crawl is the one that catches the problems — redirect chains, pages that quietly returned a 404, images that never got re-uploaded, and any page where the canonical tag points somewhere unexpected." }
+          ],
+          "pitfalls": [
+            "Redirecting everything to the homepage. It is fast, it looks tidy, and it throws away the ranking signals of every page you redirected.",
+            "Forgetting the /post/ blog path. Wix blog URLs sit on their own path and are routinely missed in redirect maps because they do not appear in the site navigation.",
+            "Rebuilding pages with new H1s that target different keywords. If a page ranks, the migration is not the moment to re-target it — do that as a separate change a month later so you can attribute the result.",
+            "Leaving the Wix subscription to lapse before redirects are confirmed live. Keep it running for at least a full billing cycle after cutover.",
+            "Not re-verifying Search Console. Wix-verified properties do not carry across, and you lose visibility exactly when you most need it."
+          ],
+          "timeline": "For a typical 20 to 40 page business site: two to three days on inventory and content extraction, one to two weeks on the rebuild and design, one day on redirect mapping and cutover, then two weeks of monitoring. Larger sites scale mostly on the rebuild step, not on the technical work.",
+          "verdict": {
+            "h2": "What determines whether it goes well",
+            "body": [
+              "In my experience the outcome is decided almost entirely by two things: whether the crawl was done <strong>before</strong> anything changed, and whether every old URL has a specific, sensible destination. Sites that get those right typically see organic traffic recover to baseline within two to four weeks, and often exceed it because the rebuild fixed structural problems along the way.",
+              "Sites that get them wrong lose traffic that never comes back, because by the time the drop is noticed the original URL list no longer exists to reconstruct from."
+            ]
+          },
+          "proof": {
+            "text": "I handle the full migration path — inventory, redirect map, rebuild and post-launch crawl — as a fixed-scope piece of work rather than an hourly one.",
+            "linkText": "Discuss a migration",
+            "url": "mailto:hello@carlmadelo.com?subject=Wix%20to%20Duda%20migration"
+          },
+          "faqs": [
+            { "q": "How long does a Wix to Duda migration take?", "a": "Most 20 to 40 page business sites take two to three weeks end to end, with the rebuild being the bulk of it. The technical migration work — redirect mapping, DNS, verification — is typically a single day." },
+            { "q": "Will my site go down during the migration?", "a": "No. The Duda site is built and fully tested on a staging URL while the Wix site stays live. The only moment of change is the DNS switch, which propagates without a visible outage if the new site is ready first." },
+            { "q": "Can I keep my domain name?", "a": "Yes. Your domain is independent of both platforms. You either point the existing DNS at Duda or transfer the registration, and neither affects your email if the MX records are left alone." },
+            { "q": "What happens to my Wix blog posts?", "a": "They are rebuilt as Duda blog posts or CMS collection items. The important part is that Wix blog URLs live under a separate path, so each one needs its own 301 to the new equivalent." },
+            { "q": "Do I lose my Wix forms and their submissions?", "a": "Past submissions should be exported from Wix before you cancel, as they do not transfer. New forms are rebuilt in Duda and can be wired to email, a CRM or a webhook — usually an improvement on where they were pointing before." }
+          ],
+          "related": ["wordpress", "squarespace"],
+          "relatedComparison": "wix"
+        },
+
+        { "slug": "wordpress", "status": "draft", "from": "WordPress", "title": "WordPress to Duda Migration", "description": "How to migrate a WordPress site to Duda without losing search rankings.", "h1": "WordPress to Duda migration", "lede": "", "intro": "", "steps": [], "pitfalls": [], "timeline": "", "verdict": { "h2": "What determines whether it goes well", "body": [] }, "faqs": [], "related": ["wix"], "relatedComparison": "wordpress" },
+        { "slug": "squarespace", "status": "draft", "from": "Squarespace", "title": "Squarespace to Duda Migration", "description": "How to migrate a Squarespace site to Duda without losing search rankings.", "h1": "Squarespace to Duda migration", "lede": "", "intro": "", "steps": [], "pitfalls": [], "timeline": "", "verdict": { "h2": "What determines whether it goes well", "body": [] }, "faqs": [], "related": ["wix"], "relatedComparison": "squarespace" },
+        { "slug": "godaddy", "status": "draft", "from": "GoDaddy", "title": "GoDaddy to Duda Migration", "description": "How to migrate a GoDaddy Website Builder site to Duda without losing search rankings.", "h1": "GoDaddy to Duda migration", "lede": "", "intro": "", "steps": [], "pitfalls": [], "timeline": "", "verdict": { "h2": "What determines whether it goes well", "body": [] }, "faqs": [], "related": ["wix"] },
+        { "slug": "weebly", "status": "draft", "from": "Weebly", "title": "Weebly to Duda Migration", "description": "How to migrate a Weebly site to Duda without losing search rankings.", "h1": "Weebly to Duda migration", "lede": "", "intro": "", "steps": [], "pitfalls": [], "timeline": "", "verdict": { "h2": "What determines whether it goes well", "body": [] }, "faqs": [], "related": ["wix"] }
+      ]
+    },
+
+    {
+      "type": "industry",
+      "slug": "duda-web-design",
+      "hub": {
+        "eyebrow": "By industry",
+        "h1": "Duda web design by industry",
+        "title": "Duda Web Design by Industry — Construction, Home Services & More",
+        "description": "What a Duda website needs to include and convert in construction, home services, real estate and professional services.",
+        "intro": "These pages are not sales pages with the industry name swapped in. Each one covers what that sector's buyers actually check before enquiring, the page structure that reflects it, and the specific conversion mistakes I see most often in that industry. Where I have built for the sector, the live site is linked."
+      },
+      "pages": [
+        {
+          "slug": "construction",
+          "status": "published",
+          "industry": "Construction",
+          "title": "Duda Web Design for Construction Companies",
+          "description": "What a construction company website needs to win work — proof structure, project galleries, trust signals and enquiry design, built on Duda.",
+          "h1": "Duda web design for construction companies",
+          "lede": "Construction buyers are not comparing services. They are looking for evidence that you have done this exact job before, near them, without incident.",
+          "readTime": "7 min",
+          "intro": "Construction is one of the few sectors where the website is genuinely doing sales work rather than decoration. A homeowner deciding on a twenty-thousand-pound extension, or a developer shortlisting contractors, is making a high-value decision with an unfamiliar supplier and no easy way to reverse it. What they want from your website is not a list of services — it is evidence. Photographs of finished work that looks like their job. Proof you are insured and accredited. A sense of what happens between the enquiry and the first day on site. Almost every underperforming construction site I audit has the services and the contact form and is missing exactly that.",
+          "mustHaves": [
+            "Project galleries organised by job type, not chronologically. Someone wanting a loft conversion should reach loft conversions in one click, not scroll a mixed feed.",
+            "Before and after pairs on the same page. This is the single highest-performing content type in the sector and most sites bury it.",
+            "Accreditations and insurance shown as content, not as a strip of tiny logos in the footer. Name the body, state the number, link to the register.",
+            "A plain-language process section covering survey, quote, scheduling and completion. Uncertainty about what happens next is a bigger drop-off cause than price.",
+            "Geographic coverage stated explicitly. Half of enquiry drop-off in this sector is people not knowing whether you travel to them.",
+            "Reviews with the job type attached, not just a star rating. 'Great work' means nothing; 'rear extension, Bicester, on schedule' means everything.",
+            "A phone number in the header on mobile, tappable, always visible. Construction enquiries skew heavily to calls."
+          ],
+          "sections": [
+            {
+              "h2": "Structure it around job types, not services",
+              "body": [
+                "The instinct is to build a services page listing everything you do. The better structure gives each substantial job type its own page — extensions, loft conversions, groundworks, driveways — because that is how people search and because it gives each one room for its own gallery, its own pricing context and its own set of reviews.",
+                "In Duda this is straightforward using CMS collections: one collection for projects, tagged by job type, feeding filtered galleries on each service page automatically. Adding a new project once populates every page it belongs on, which matters because the sites that stay useful are the ones the client actually keeps updating."
+              ]
+            },
+            {
+              "h2": "The photography problem",
+              "body": [
+                "Construction sites live or die on their photographs, and most construction photography is phone snaps taken in poor light at the end of a job. This is worth fixing before anything else on the site, because no amount of design compensates for a gallery that makes finished work look unfinished.",
+                "Practical minimum: shoot in daylight, clear the site of vehicles and materials first, shoot the same angle before and after, and take one wide establishing shot per project. Duda handles the image optimisation and responsive delivery, so you can upload full-resolution originals without a performance penalty."
+              ]
+            },
+            {
+              "h2": "Enquiry design for high-value, low-frequency purchases",
+              "body": [
+                "A short form asking for name, email and message performs poorly here, because it gives the visitor no signal about what happens next and gives you nothing to qualify with. A better pattern asks two or three qualifying questions — job type, rough timeline, postcode — and states plainly what the response will be and when.",
+                "Equally important is a visible phone number. In construction, a meaningful share of enquiries are calls made from a mobile while standing in the room being worked on. If the number is only in the footer, those calls do not happen."
+              ]
+            }
+          ],
+          "verdict": {
+            "h2": "The short version",
+            "body": [
+              "A construction website converts on <strong>evidence, clarity and reachability</strong>, in that order. Evidence means organised galleries and specific reviews. Clarity means a stated process and stated coverage area. Reachability means a tappable phone number and a form that tells people what happens next.",
+              "Everything else — the animation, the hero video, the clever layout — is worth having only once those three are in place."
+            ]
+          },
+          "proof": {
+            "text": "Driveways Bicester is a live example of this structure: job-type pages, a gallery organised by finish, coverage area stated up front, and quote CTAs at every scroll depth.",
+            "linkText": "See the build",
+            "url": "https://www.drivewaysbicester.co.uk/"
+          },
+          "faqs": [
+            { "q": "How many project photos should a construction site have?", "a": "Quality over volume, but a realistic floor is six to ten well-shot projects covering your main job types, with three to five images each. Below that the gallery reads as a new business rather than an established one." },
+            { "q": "Should a construction website show prices?", "a": "Rarely a fixed price, but almost always a range or a starting figure. Sites that show no pricing context at all attract a high volume of unqualified enquiries, which costs more time than the enquiries are worth." },
+            { "q": "Do I need a separate page for every town I cover?", "a": "Only if you have something genuinely different to say about each one — completed projects there, local accreditations, specific planning context. Duplicating the same page with the town name swapped is the classic thin-content mistake and it does not rank." },
+            { "q": "Why Duda for a construction site?", "a": "Because the site needs to be updated with new projects regularly, and Duda lets the client add a project to a CMS collection without touching the layout. Sites that require a developer for every new photo stop getting updated within six months." }
+          ],
+          "related": ["home-services", "real-estate"]
+        },
+
+        { "slug": "home-services", "status": "draft", "industry": "Home services", "title": "Duda Web Design for Home Services", "description": "What a home services website needs to convert, built on Duda.", "h1": "Duda web design for home services", "lede": "", "intro": "", "mustHaves": [], "sections": [], "verdict": { "h2": "The short version", "body": [] }, "faqs": [], "related": ["construction"] },
+        { "slug": "real-estate", "status": "draft", "industry": "Real estate", "title": "Duda Web Design for Real Estate", "description": "What a real estate website needs to convert, built on Duda.", "h1": "Duda web design for real estate", "lede": "", "intro": "", "mustHaves": [], "sections": [], "verdict": { "h2": "The short version", "body": [] }, "faqs": [], "related": ["construction"] },
+        { "slug": "professional-services", "status": "draft", "industry": "Professional services", "title": "Duda Web Design for Professional Services", "description": "What a professional services website needs to convert, built on Duda.", "h1": "Duda web design for professional services", "lede": "", "intro": "", "mustHaves": [], "sections": [], "verdict": { "h2": "The short version", "body": [] }, "faqs": [], "related": ["construction"] }
+      ]
+    }
+  ]
+}
