@@ -110,6 +110,11 @@ function head({ site, title, description, canonical, indexable, schema, breadcru
 <script type="application/ld+json">
 ${JSON.stringify(schema, null, 2)}
 </script>
+
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 <a href="#main" class="skip-link">Skip to content</a>
@@ -590,7 +595,7 @@ Sitemap: ${site.domain}/sitemap.xml
 /* ------------------------------------------------------------------- main */
 
 async function main() {
-  const data = JSON.parse(await readFile(join(__dirname, "data", "pages.json"), "utf8"));
+  const data = JSON.parse(await readFile(join(__dirname, "pages.json"), "utf8"));
   const { site } = data;
   const built = [];
 
